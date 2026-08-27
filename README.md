@@ -1,6 +1,6 @@
 # Representing Adaptive Spacecraft Guidance Policies with Large Language Models in the Earth–Moon CRTBP
 
-**Author:** Daniel Amaya 
+**Author:** Daniel Amaya  
 **Course:** ME 597  
 
 ---
