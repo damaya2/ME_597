@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 8, in <module>
+    from Trajectories import (
+  File "/u/damaya2/UIUC_ME_597/Trajectories.py", line 6, in <module>
+    from CRTBP import crtbp_eom, second_partials, crtbp_var_eom, mu, DU
+ImportError: cannot import name 'DU' from 'CRTBP' (/u/damaya2/UIUC_ME_597/CRTBP.py)
