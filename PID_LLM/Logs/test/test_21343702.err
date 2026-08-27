@@ -1,0 +1,8 @@
+/u/damaya2/UIUC_ME_597_NEW/CRTBP.py:85: RuntimeWarning: invalid value encountered in add
+  dPhi[3, :] = Uxx * Phi[0, :] + Uxy * Phi[1, :] + Uxz * Phi[2, :] + 2.0 * Phi[4, :]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 217, in <module>
+    run_multi_trajectory_simulation()
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 122, in run_multi_trajectory_simulation
+    assert r_earth > 0.016, f"Safety Failure (Traj {traj_id}): Earth surface collision at t={t_curr:.3f}"
+AssertionError: Safety Failure (Traj 1): Earth surface collision at t=0.009

@@ -1,0 +1,31 @@
+================================================
+Starting Test Pipeline on gpua033.delta.ncsa.illinois.edu at Fri Aug 21 07:09:30 CDT 2026
+================================================
+
+=======================================================
+[+] Starting Test Run #1 for mission profile: 'earth_orbit'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=6.3 hrs...
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 6.3 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+
+[*] Integration Complete: 171/171 physical bounds checks passed.
+[*] Total ΔV Expended: 24.13 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_1.png
+
+=======================================================
+[+] Starting Test Run #2 for mission profile: 'moon_orbit'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=12.5 hrs...
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 12.5 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+
+[*] Integration Complete: 66/66 physical bounds checks passed.
+[*] Total ΔV Expended: 0.75 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_2.png
+
+=======================================================
+[+] Starting Test Run #3 for mission profile: 'transfer'
+=======================================================
+[!] Warning: Numerical integration failed in iteration 1.
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=104.4 hrs...

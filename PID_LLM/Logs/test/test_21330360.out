@@ -1,0 +1,9 @@
+================================================
+Starting Test Pipeline on gpua038.delta.ncsa.illinois.edu at Fri Aug 21 02:39:27 CDT 2026
+================================================
+
+=======================================================
+[+] Starting Test Run #1 for mission profile: 'earth_orbit'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=20.9 hrs...
+[!] ERROR: sim_results_multi.npy was not generated.

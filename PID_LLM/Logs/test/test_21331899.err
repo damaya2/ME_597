@@ -1,0 +1,3 @@
+/u/damaya2/UIUC_ME_597_NEW/CRTBP.py:115: RuntimeWarning: invalid value encountered in matmul
+  dPhi = A @ Phi
+[2026-08-21T07:19:15.877] error: *** JOB 21331899 ON gpua033 CANCELLED AT 2026-08-21T07:19:15 DUE to SIGNAL Terminated ***

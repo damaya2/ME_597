@@ -1,0 +1,2 @@
+/u/damaya2/UIUC_ME_597_NEW/CRTBP.py:114: RuntimeWarning: invalid value encountered in matmul
+  dPhi = A @ Phi

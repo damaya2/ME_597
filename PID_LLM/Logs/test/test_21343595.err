@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 227, in <module>
+    run_mission_simulation()
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 156, in run_mission_simulation
+    assert r_earth > 0.016, f"Safety Failure: Collided with Earth surface at t={t_curr:.3f}"
+AssertionError: Safety Failure: Collided with Earth surface at t=0.061

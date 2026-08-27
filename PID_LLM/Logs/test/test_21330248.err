@@ -1,0 +1,11 @@
+/var/spool/slurmd/job21330248/slurm_script: line 17: expoart: command not found
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 549, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 516, in main
+    res = run_test_for_mission(
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 425, in run_test_for_mission
+    sol_sim_p1, u_hist_p1, safety_p1 = simulate_controlled_trajectory(
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 100, in simulate_controlled_trajectory
+    controller = CRTBPController(mu=mu_val, u_max_m_s2=u_max_m_s2)
+TypeError: __init__() missing 1 required positional argument: 'reference_state'

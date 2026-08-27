@@ -1,0 +1,139 @@
+================================================
+Starting Test Pipeline on gpua016.delta.ncsa.illinois.edu at Fri Aug 21 21:28:21 CDT 2026
+================================================
+==================================================
+      EARTH-MOON CRTBP MULTI-TRAJECTORY SIM      
+==================================================
+[*] Generating all 5 reference trajectory profiles...
+[*] Generating Trajectory 1 starting at r0 = [0.00496215 0.         0.        ]...
+[*] Initializing Differential Corrector (Transfer Time=0.8000 nd)...
+ [Iter 01] Position Error = 1.02e+00 nd | Cond(Phi_rv) = 5.76e+03 | nfev = 12446 | Elapsed = 0.00s
+ [Iter 02] Position Error = 1.02e+00 nd | Cond(Phi_rv) = 4.29e+04 | nfev = 12998 | Elapsed = 0.44s
+ [Iter 03] Position Error = 1.01e+00 nd | Cond(Phi_rv) = 1.72e+04 | nfev = 13118 | Elapsed = 0.89s
+ [Iter 04] Position Error = 1.01e+00 nd | Cond(Phi_rv) = 3.07e+03 | nfev = 12830 | Elapsed = 1.35s
+ [Iter 05] Position Error = 1.01e+00 nd | Cond(Phi_rv) = 1.75e+03 | nfev = 12266 | Elapsed = 1.79s
+ [Iter 06] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 1.32e+03 | nfev = 12218 | Elapsed = 2.21s
+ [Iter 07] Position Error = 9.97e-01 nd | Cond(Phi_rv) = 1.12e+03 | nfev = 12182 | Elapsed = 2.64s
+ [Iter 08] Position Error = 9.93e-01 nd | Cond(Phi_rv) = 1.05e+03 | nfev = 12794 | Elapsed = 3.06s
+ [Iter 09] Position Error = 9.90e-01 nd | Cond(Phi_rv) = 1.03e+03 | nfev = 13082 | Elapsed = 3.50s
+ [Iter 10] Position Error = 9.88e-01 nd | Cond(Phi_rv) = 1.04e+03 | nfev = 13778 | Elapsed = 3.95s
+ [Iter 11] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.10e+03 | nfev = 13658 | Elapsed = 4.42s
+ [Iter 12] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.23e+03 | nfev = 14522 | Elapsed = 4.89s
+ [Iter 13] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.46e+03 | nfev = 15050 | Elapsed = 5.39s
+ [Iter 14] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.92e+03 | nfev = 15494 | Elapsed = 5.91s
+ [Iter 15] Position Error = 9.89e-01 nd | Cond(Phi_rv) = 2.97e+03 | nfev = 16022 | Elapsed = 6.44s
+ [Iter 16] Position Error = 9.91e-01 nd | Cond(Phi_rv) = 7.03e+03 | nfev = 16298 | Elapsed = 6.99s
+ [Iter 17] Position Error = 9.94e-01 nd | Cond(Phi_rv) = 1.98e+04 | nfev = 16478 | Elapsed = 7.55s
+ [Iter 18] Position Error = 9.97e-01 nd | Cond(Phi_rv) = 4.39e+03 | nfev = 16214 | Elapsed = 8.12s
+ [Iter 19] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.64e+03 | nfev = 16322 | Elapsed = 8.68s
+ [Iter 20] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.07e+03 | nfev = 15458 | Elapsed = 9.24s
+ [Iter 21] Position Error = 9.91e-01 nd | Cond(Phi_rv) = 9.68e+03 | nfev = 16046 | Elapsed = 9.77s
+ [Iter 22] Position Error = 9.94e-01 nd | Cond(Phi_rv) = 1.14e+04 | nfev = 16178 | Elapsed = 10.32s
+ [Iter 23] Position Error = 9.98e-01 nd | Cond(Phi_rv) = 3.82e+03 | nfev = 16262 | Elapsed = 10.88s
+ [Iter 24] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.45e+03 | nfev = 15458 | Elapsed = 11.44s
+ [Iter 25] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 1.99e+03 | nfev = 15086 | Elapsed = 11.97s
+ [Iter 26] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 1.41e+04 | nfev = 15422 | Elapsed = 12.49s
+ [Iter 27] Position Error = 9.95e-01 nd | Cond(Phi_rv) = 8.47e+03 | nfev = 16106 | Elapsed = 13.02s
+ [Iter 28] Position Error = 9.98e-01 nd | Cond(Phi_rv) = 3.45e+03 | nfev = 15470 | Elapsed = 13.57s
+ [Iter 29] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.30e+03 | nfev = 14978 | Elapsed = 14.10s
+ [Iter 30] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 1.92e+03 | nfev = 14462 | Elapsed = 14.62s
+[!] Transfer targeting failed to converge. Returning best estimate trajectory.
+[*] Generating Trajectory 2 starting at r0 = [0.00506215 0.         0.        ]...
+[*] Initializing Differential Corrector (Transfer Time=0.8000 nd)...
+ [Iter 01] Position Error = 1.02e+00 nd | Cond(Phi_rv) = 3.80e+03 | nfev = 11894 | Elapsed = 0.00s
+ [Iter 02] Position Error = 1.02e+00 nd | Cond(Phi_rv) = 1.48e+04 | nfev = 12614 | Elapsed = 0.41s
+ [Iter 03] Position Error = 1.02e+00 nd | Cond(Phi_rv) = 2.90e+04 | nfev = 12818 | Elapsed = 0.84s
+ [Iter 04] Position Error = 1.01e+00 nd | Cond(Phi_rv) = 1.11e+04 | nfev = 13562 | Elapsed = 1.28s
+ [Iter 05] Position Error = 1.01e+00 nd | Cond(Phi_rv) = 2.75e+03 | nfev = 12842 | Elapsed = 1.75s
+ [Iter 06] Position Error = 1.01e+00 nd | Cond(Phi_rv) = 1.61e+03 | nfev = 12590 | Elapsed = 2.19s
+ [Iter 07] Position Error = 9.96e-01 nd | Cond(Phi_rv) = 1.08e+03 | nfev = 11702 | Elapsed = 2.62s
+ [Iter 08] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 1.03e+03 | nfev = 12446 | Elapsed = 3.03s
+ [Iter 09] Position Error = 9.90e-01 nd | Cond(Phi_rv) = 1.02e+03 | nfev = 12770 | Elapsed = 3.46s
+ [Iter 10] Position Error = 9.88e-01 nd | Cond(Phi_rv) = 1.06e+03 | nfev = 13514 | Elapsed = 3.90s
+ [Iter 11] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.14e+03 | nfev = 13610 | Elapsed = 4.36s
+ [Iter 12] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.30e+03 | nfev = 14306 | Elapsed = 4.83s
+ [Iter 13] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.59e+03 | nfev = 14822 | Elapsed = 5.32s
+ [Iter 14] Position Error = 9.88e-01 nd | Cond(Phi_rv) = 2.18e+03 | nfev = 15278 | Elapsed = 5.83s
+ [Iter 15] Position Error = 9.89e-01 nd | Cond(Phi_rv) = 3.70e+03 | nfev = 16046 | Elapsed = 6.36s
+ [Iter 16] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 1.33e+04 | nfev = 15818 | Elapsed = 6.91s
+ [Iter 17] Position Error = 9.95e-01 nd | Cond(Phi_rv) = 8.79e+03 | nfev = 16142 | Elapsed = 7.46s
+ [Iter 18] Position Error = 9.98e-01 nd | Cond(Phi_rv) = 3.54e+03 | nfev = 15806 | Elapsed = 8.02s
+ [Iter 19] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.38e+03 | nfev = 16046 | Elapsed = 8.56s
+ [Iter 20] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.11e+03 | nfev = 15170 | Elapsed = 9.11s
+ [Iter 21] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.03e+03 | nfev = 14882 | Elapsed = 9.64s
+ [Iter 22] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.14e+03 | nfev = 15290 | Elapsed = 10.15s
+ [Iter 23] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.33e+03 | nfev = 15950 | Elapsed = 10.68s
+ [Iter 24] Position Error = 9.86e-01 nd | Cond(Phi_rv) = 1.70e+03 | nfev = 15926 | Elapsed = 11.23s
+ [Iter 25] Position Error = 9.88e-01 nd | Cond(Phi_rv) = 2.49e+03 | nfev = 16130 | Elapsed = 11.78s
+ [Iter 26] Position Error = 9.90e-01 nd | Cond(Phi_rv) = 4.90e+03 | nfev = 16586 | Elapsed = 12.33s
+ [Iter 27] Position Error = 9.93e-01 nd | Cond(Phi_rv) = 1.24e+05 | nfev = 16922 | Elapsed = 12.90s
+ [Iter 28] Position Error = 9.96e-01 nd | Cond(Phi_rv) = 5.94e+03 | nfev = 17630 | Elapsed = 13.49s
+ [Iter 29] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 3.13e+03 | nfev = 16946 | Elapsed = 14.09s
+ [Iter 30] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 2.37e+03 | nfev = 16610 | Elapsed = 14.68s
+[!] Transfer targeting failed to converge. Returning best estimate trajectory.
+[*] Generating Trajectory 3 starting at r0 = [0.00548245 0.         0.001     ]...
+[*] Initializing Differential Corrector (Transfer Time=0.7500 nd)...
+[*] Applied Trans-Lunar Injection (TLI) seed boost: +0.315 nd (~3.2 km/s)
+ [Iter 01] Integration failed.
+[!] Transfer targeting failed to converge. Returning best estimate trajectory.
+[*] Generating Trajectory 4 starting at r0 = [0.48784941 0.8660254  0.        ]...
+[*] Initializing Differential Corrector (Transfer Time=1.2000 nd)...
+[*] Applied Trans-Lunar Injection (TLI) seed boost: +0.315 nd (~3.2 km/s)
+ [Iter 01] Position Error = 1.00e+00 nd | Cond(Phi_rv) = 1.90e+00 | nfev = 38 | Elapsed = 0.00s
+ [Iter 02] Position Error = 8.54e-01 nd | Cond(Phi_rv) = 1.91e+00 | nfev = 50 | Elapsed = 0.00s
+ [Iter 03] Position Error = 7.06e-01 nd | Cond(Phi_rv) = 1.91e+00 | nfev = 74 | Elapsed = 0.00s
+ [Iter 04] Position Error = 5.55e-01 nd | Cond(Phi_rv) = 1.88e+00 | nfev = 98 | Elapsed = 0.01s
+ [Iter 05] Position Error = 4.02e-01 nd | Cond(Phi_rv) = 1.83e+00 | nfev = 122 | Elapsed = 0.01s
+ [Iter 06] Position Error = 2.42e-01 nd | Cond(Phi_rv) = 1.77e+00 | nfev = 134 | Elapsed = 0.01s
+ [Iter 07] Position Error = 7.38e-02 nd | Cond(Phi_rv) = 1.72e+00 | nfev = 290 | Elapsed = 0.02s
+ [Iter 08] Position Error = 1.38e-02 nd | Cond(Phi_rv) = 3.13e+00 | nfev = 2642 | Elapsed = 0.03s
+ [Iter 09] Position Error = 5.44e-03 nd | Cond(Phi_rv) = 5.04e+00 | nfev = 722 | Elapsed = 0.12s
+ [Iter 10] Position Error = 1.96e-03 nd | Cond(Phi_rv) = 5.01e+00 | nfev = 674 | Elapsed = 0.15s
+ [Iter 11] Position Error = 1.32e-04 nd | Cond(Phi_rv) = 6.57e+00 | nfev = 722 | Elapsed = 0.17s
+ [Iter 12] Position Error = 4.38e-07 nd | Cond(Phi_rv) = 6.46e+00 | nfev = 722 | Elapsed = 0.19s
+[+] Differential Corrector Converged in 12 iterations!
+[*] Revalidation: Final Target Position Error = 4.38e-07 nd (0.17 km)
+[*] Generating Trajectory 5 starting at r0 = [0.00496215 0.         0.015     ]...
+[*] Initializing Differential Corrector (Transfer Time=0.8000 nd)...
+ [Iter 01] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 0.00s
+ [Iter 02] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 0.33s
+ [Iter 03] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 0.66s
+ [Iter 04] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 0.99s
+ [Iter 05] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 1.32s
+ [Iter 06] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 1.65s
+ [Iter 07] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 1.98s
+ [Iter 08] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 2.31s
+ [Iter 09] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 2.64s
+ [Iter 10] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 2.97s
+ [Iter 11] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 3.30s
+ [Iter 12] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 3.63s
+ [Iter 13] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 3.96s
+ [Iter 14] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 4.29s
+ [Iter 15] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 4.62s
+ [Iter 16] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 4.95s
+ [Iter 17] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 5.27s
+ [Iter 18] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 5.60s
+ [Iter 19] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 5.93s
+ [Iter 20] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 6.26s
+ [Iter 21] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 6.59s
+ [Iter 22] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 6.92s
+ [Iter 23] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 7.25s
+ [Iter 24] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 7.58s
+ [Iter 25] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 7.90s
+ [Iter 26] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 8.23s
+ [Iter 27] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 8.56s
+ [Iter 28] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 8.89s
+ [Iter 29] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 9.22s
+ [Iter 30] Position Error = 9.92e-01 nd | Cond(Phi_rv) = 9.77e+16 | nfev = 9554 | Elapsed = 9.55s
+[!] Transfer targeting failed to converge. Returning best estimate trajectory.
+
+--------------------------------------------------
+[*] Running Trajectory 1 Simulation...
+[*] Starting Environment: Earth Orbit
+[*] Trajectory Duration: 3.48 days (0.800 nd)
+=================================================
+Pipeline execution finished successfully!
+Generated output array: sim_results_multi.npy
+Visualizations stored in: test_output_results/
+=================================================
+Job completed at Fri Aug 21 21:29:07 CDT 2026

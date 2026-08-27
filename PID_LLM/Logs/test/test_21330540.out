@@ -1,0 +1,70 @@
+================================================
+Starting Test Pipeline on gpua019.delta.ncsa.illinois.edu at Fri Aug 21 03:01:59 CDT 2026
+================================================
+
+=======================================================
+[+] Starting Test Run #1 for mission profile: 'earth_orbit'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=2.1 hrs...
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 2.1 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+
+[*] Integration Complete: 128/128 physical bounds checks passed.
+[*] Total ΔV Expended: 53.08 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_1.png
+
+=======================================================
+[+] Starting Test Run #2 for mission profile: 'moon_orbit'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=4.2 hrs...
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 4.2 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+
+[*] Integration Complete: 101/101 physical bounds checks passed.
+[*] Total ΔV Expended: 8.45 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_2.png
+
+=======================================================
+[+] Starting Test Run #3 for mission profile: 'transfer'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=95.9 hrs...
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 95.9 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+
+[*] Integration Complete: 267/267 physical bounds checks passed.
+[*] Total ΔV Expended: 0.60 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_3.png
+
+=======================================================
+[+] Starting Test Run #4 for mission profile: 'halo_l1'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=116.9 hrs...
+      [WARNING] Spacecraft surface collision detected at t=0.7178!
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 116.9 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+      [WARNING] Spacecraft surface collision detected at t=2.4501!
+
+[*] Integration Complete: 431/446 physical bounds checks passed.
+[*] Total ΔV Expended: 0.74 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_4.png
+
+=======================================================
+[+] Starting Test Run #5 for mission profile: 'dro'
+=======================================================
+[*] Phase 1: Running nominal trajectory tracking from t=0.0 to t=104.4 hrs...
+[*] Injecting 2.0 km position & 0.01 m/s velocity disturbance kick at t = 104.4 hrs...
+[*] Phase 2: Running disturbance recovery tracking...
+
+[*] Integration Complete: 286/286 physical bounds checks passed.
+[*] Total ΔV Expended: 0.68 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_5.png
+[*] Generating aggregated comparison plot for 5 trajectories...
+[*] Saved multi-trajectory summary plot to: test_output_results/multi_trajectory_summary.png
+
+[+] Saved binary results array to 'sim_results_multi.npy' successfully.
+=================================================
+Pipeline execution finished successfully!
+Generated output array: sim_results_multi.npy
+Visualizations stored in: test_output_results/
+=================================================
+Job completed at Fri Aug 21 03:02:36 CDT 2026

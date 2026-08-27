@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 14, in <module>
+    from Trajectories import (
+  File "/u/damaya2/UIUC_ME_597_NEW/Trajectories.py", line 5, in <module>
+    from CRTBP import MU, DU, TU, crtbp_eom, crtbp_var_eom, compute_lagrange_points
+ImportError: cannot import name 'compute_lagrange_points' from 'CRTBP' (/u/damaya2/UIUC_ME_597_NEW/CRTBP.py)

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 593, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 560, in main
+    res = run_test_for_mission(
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 457, in run_test_for_mission
+    m_type, sol_ref, ref_fn = generate_reference_trajectory(mission_type)
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 107, in generate_reference_trajectory
+    transfer_res = solve_point_to_point_transfer(x_initial, x_target, tof_guess=2.5)
+TypeError: solve_point_to_point_transfer() got an unexpected keyword argument 'tof_guess'

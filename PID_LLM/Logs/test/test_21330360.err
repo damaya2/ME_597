@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 557, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 524, in main
+    res = run_test_for_mission(
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 433, in run_test_for_mission
+    sol_sim_p1, u_hist_p1, safety_p1 = simulate_controlled_trajectory(
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 127, in simulate_controlled_trajectory
+    sol = solve_ivp(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/ivp.py", line 621, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/base.py", line 154, in fun
+    return self.fun_single(t, y)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/base.py", line 23, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 118, in controlled_system
+    u_cmd = controller.compute_control(state, ref_state, dt=0.001)
+AttributeError: 'CRTBPController' object has no attribute 'compute_control'

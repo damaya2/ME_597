@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 202, in <module>
+    run_mission_simulation()
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 69, in run_mission_simulation
+    mission = EarthMoonMission(t_events, x_events)
+  File "/u/damaya2/UIUC_ME_597_NEW/Trajectories.py", line 172, in __init__
+    self.spline = CubicSpline(self.t_events, self.x_nodes, axis=0, extrapolate=False)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/interpolate/_cubic.py", line 742, in __init__
+    x, dx, y, axis, _ = prepare_input(x, y, axis)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/interpolate/_cubic.py", line 70, in prepare_input
+    raise ValueError("`x` must be strictly increasing sequence.")
+ValueError: `x` must be strictly increasing sequence.

@@ -1,0 +1,53 @@
+================================================
+Starting Test Pipeline on gpua061.delta.ncsa.illinois.edu at Fri Aug 21 09:26:06 CDT 2026
+================================================
+==================================================
+      EARTH-MOON CRTBP MISSION SIMULATION         
+==================================================
+[*] Mission Type (Start): Earth Orbit
+[*] Earth Parking Orbit Period: 1.48 hours
+[*] Mission Type (Target): Lunar Orbit
+[*] Lunar Parking Orbit Period: 1.97 hours
+
+[*] Initiating Transfer Reference Generation...
+[*] Calling solve_point_to_point_transfer() with T = 0.80 nd (3.48 days)
+[*] Initializing Differential Corrector (Transfer Time=0.8000 nd)...
+ [Iter 01] Position Error = 9.88e-01 nd | Cond(Phi_rv) = 1.33e+03 | nfev = 12782 | Elapsed = 0.00s
+ [Iter 02] Position Error = 9.88e-01 nd | Cond(Phi_rv) = 1.34e+03 | nfev = 12746 | Elapsed = 0.53s
+ [Iter 03] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.35e+03 | nfev = 12650 | Elapsed = 1.03s
+ [Iter 04] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.37e+03 | nfev = 12626 | Elapsed = 1.53s
+ [Iter 05] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.38e+03 | nfev = 12566 | Elapsed = 2.03s
+ [Iter 06] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.40e+03 | nfev = 12602 | Elapsed = 2.53s
+ [Iter 07] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.42e+03 | nfev = 12638 | Elapsed = 3.02s
+ [Iter 08] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.44e+03 | nfev = 12794 | Elapsed = 3.52s
+ [Iter 09] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.46e+03 | nfev = 12986 | Elapsed = 4.02s
+ [Iter 10] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.48e+03 | nfev = 13178 | Elapsed = 4.52s
+ [Iter 11] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.50e+03 | nfev = 13274 | Elapsed = 5.03s
+ [Iter 12] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.53e+03 | nfev = 13454 | Elapsed = 5.54s
+ [Iter 13] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.56e+03 | nfev = 13442 | Elapsed = 6.05s
+ [Iter 14] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.59e+03 | nfev = 13718 | Elapsed = 6.56s
+ [Iter 15] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.62e+03 | nfev = 14090 | Elapsed = 7.09s
+ [Iter 16] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.63e+03 | nfev = 14402 | Elapsed = 7.77s
+ [Iter 17] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.63e+03 | nfev = 14690 | Elapsed = 8.47s
+ [Iter 18] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.64e+03 | nfev = 14834 | Elapsed = 9.16s
+ [Iter 19] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.64e+03 | nfev = 15014 | Elapsed = 9.86s
+ [Iter 20] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.65e+03 | nfev = 15134 | Elapsed = 10.57s
+ [Iter 21] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.65e+03 | nfev = 15530 | Elapsed = 11.28s
+ [Iter 22] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.66e+03 | nfev = 15806 | Elapsed = 12.00s
+ [Iter 23] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.66e+03 | nfev = 15854 | Elapsed = 12.74s
+ [Iter 24] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.67e+03 | nfev = 15914 | Elapsed = 13.47s
+ [Iter 25] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.68e+03 | nfev = 16226 | Elapsed = 14.20s
+ [Iter 26] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.68e+03 | nfev = 16322 | Elapsed = 14.94s
+ [Iter 27] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.69e+03 | nfev = 16358 | Elapsed = 15.69s
+ [Iter 28] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.69e+03 | nfev = 16766 | Elapsed = 16.44s
+ [Iter 29] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.70e+03 | nfev = 16910 | Elapsed = 17.21s
+ [Iter 30] Position Error = 9.87e-01 nd | Cond(Phi_rv) = 1.71e+03 | nfev = 17090 | Elapsed = 17.98s
+[!] Transfer targeting failed to converge within limit. Returning nominal initial trajectory.
+[*] Transfer Generation Complete in 18.79 seconds.
+
+=================================================
+Pipeline execution finished successfully!
+Generated output array: sim_results_multi.npy
+Visualizations stored in: test_output_results/
+=================================================
+Job completed at Fri Aug 21 09:26:27 CDT 2026
