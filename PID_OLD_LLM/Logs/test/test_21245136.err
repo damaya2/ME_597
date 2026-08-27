@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 498, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 467, in main
+    res = run_test_for_mission(
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 410, in run_test_for_mission
+    sol_sim, u_history, safety_flags = simulate_controlled_trajectory(
+TypeError: simulate_controlled_trajectory() got an unexpected keyword argument 'max_output_points'

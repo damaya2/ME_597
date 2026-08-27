@@ -1,0 +1,5 @@
+/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/ivp.py:621: UserWarning: The following arguments have no effect for a chosen solver: `options`.
+  solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/ivp.py:621: UserWarning: The following arguments have no effect for a chosen solver: `options`.
+  solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+[2026-08-17T15:16:26.452] error: *** JOB 21245562 ON gpua053 CANCELLED AT 2026-08-17T15:16:26 DUE to SIGNAL Terminated ***

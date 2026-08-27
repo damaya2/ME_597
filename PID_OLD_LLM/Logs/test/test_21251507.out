@@ -1,0 +1,9 @@
+=================================================
+Starting CRTBP Pipeline on gpua053.delta.ncsa.illinois.edu at Mon Aug 17 21:31:21 CDT 2026
+=================================================
+=================================================
+Pipeline execution finished successfully!
+Generated output array: sim_results_multi.npy
+Visualizations stored in: test_output_results/
+=================================================
+Job completed at Mon Aug 17 21:31:22 CDT 2026

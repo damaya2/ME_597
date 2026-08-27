@@ -1,0 +1,100 @@
+=================================================
+Starting CRTBP Pipeline on gpua025.delta.ncsa.illinois.edu at Mon Aug 17 14:49:55 CDT 2026
+=================================================
+
+=======================================================
+[+] Starting Test Run #1 for mission profile: 'earth_orbit'
+=======================================================
+[*] Solving differential equations for closed-loop trajectory...
+Step 000500 | t= 0.110 | Pos Err:  922.71 km | Vel Err:   92.07 m/s
+Step 001000 | t= 0.320 | Pos Err: 1275.57 km | Vel Err:  119.45 m/s
+Step 001500 | t= 0.515 | Pos Err: 2986.78 km | Vel Err:  254.14 m/s
+Step 002000 | t= 0.689 | Pos Err: 5115.15 km | Vel Err:  467.59 m/s
+Step 002500 | t= 0.864 | Pos Err: 8935.19 km | Vel Err: 1092.68 m/s
+Step 003000 | t= 1.033 | Pos Err: 13818.75 km | Vel Err: 2458.25 m/s
+Step 003500 | t= 1.207 | Pos Err: 20766.84 km | Vel Err: 5807.29 m/s
+Step 004000 | t= 1.405 | Pos Err: 10040.44 km | Vel Err:  889.15 m/s
+Step 004500 | t= 1.617 | Pos Err: 8119.52 km | Vel Err:  687.88 m/s
+Step 005000 | t= 1.801 | Pos Err: 11985.10 km | Vel Err: 1012.59 m/s
+Step 005500 | t= 1.973 | Pos Err: 16345.43 km | Vel Err: 1504.17 m/s
+Step 006000 | t= 2.152 | Pos Err: 27809.54 km | Vel Err: 4138.97 m/s
+Step 006500 | t= 2.315 | Pos Err: 32816.82 km | Vel Err: 5617.51 m/s
+Step 007000 | t= 2.485 | Pos Err: 40302.18 km | Vel Err: 8574.96 m/s
+Step 007500 | t= 2.667 | Pos Err: 35885.11 km | Vel Err: 5374.36 m/s
+Step 008000 | t= 2.889 | Pos Err: 16939.65 km | Vel Err: 1452.45 m/s
+Step 008500 | t= 3.084 | Pos Err: 25053.60 km | Vel Err: 2180.18 m/s
+Step 009000 | t= 3.267 | Pos Err: 42165.32 km | Vel Err: 5472.52 m/s
+Step 009500 | t= 3.429 | Pos Err: 47397.27 km | Vel Err: 6810.73 m/s
+Step 010000 | t= 3.592 | Pos Err: 52368.90 km | Vel Err: 8244.96 m/s
+Step 010500 | t= 3.762 | Pos Err: 53415.38 km | Vel Err: 8184.05 m/s
+Step 011000 | t= 3.930 | Pos Err: 52805.91 km | Vel Err: 7652.39 m/s
+Step 011500 | t= 4.101 | Pos Err: 55730.76 km | Vel Err: 7936.69 m/s
+Step 012000 | t= 4.315 | Pos Err: 33626.20 km | Vel Err: 3054.88 m/s
+Step 012500 | t= 4.512 | Pos Err: 40537.84 km | Vel Err: 3746.05 m/s
+Step 013000 | t= 4.683 | Pos Err: 50977.08 km | Vel Err: 5203.08 m/s
+Step 013500 | t= 4.854 | Pos Err: 64116.75 km | Vel Err: 8633.24 m/s
+Step 014000 | t= 5.019 | Pos Err: 63283.93 km | Vel Err: 8101.79 m/s
+Step 014500 | t= 5.192 | Pos Err: 52460.54 km | Vel Err: 5752.71 m/s
+Step 015000 | t= 5.369 | Pos Err: 47498.30 km | Vel Err: 5007.07 m/s
+Step 015500 | t= 5.564 | Pos Err: 65500.33 km | Vel Err: 8755.06 m/s
+Step 016000 | t= 5.758 | Pos Err: 49872.06 km | Vel Err: 5535.16 m/s
+Step 016500 | t= 5.935 | Pos Err: 56053.65 km | Vel Err: 6648.56 m/s
+Step 017000 | t= 6.110 | Pos Err: 61650.73 km | Vel Err: 8223.94 m/s
+Step 017500 | t= 6.280 | Pos Err: 46045.54 km | Vel Err: 4547.12 m/s
+Step 018000 | t= 6.449 | Pos Err: 35043.72 km | Vel Err: 3148.84 m/s
+Step 018500 | t= 6.611 | Pos Err: 28870.26 km | Vel Err: 2527.01 m/s
+Step 019000 | t= 6.807 | Pos Err: 21762.50 km | Vel Err: 1910.42 m/s
+Step 019500 | t= 6.992 | Pos Err: 24595.41 km | Vel Err: 2360.31 m/s
+Step 020000 | t= 7.166 | Pos Err: 24958.28 km | Vel Err: 3336.55 m/s
+Step 020500 | t= 7.331 | Pos Err: 18082.08 km | Vel Err: 3084.51 m/s
+Step 021000 | t= 7.498 | Pos Err: 7740.40 km | Vel Err: 2206.38 m/s
+Step 021500 | t= 7.666 | Pos Err: 8473.16 km | Vel Err: 2065.97 m/s
+Step 022000 | t= 7.846 | Pos Err: 13083.72 km | Vel Err: 1339.76 m/s
+Step 022500 | t= 8.046 | Pos Err: 13224.52 km | Vel Err: 1144.72 m/s
+Step 023000 | t= 8.238 | Pos Err: 22592.13 km | Vel Err: 1923.82 m/s
+Step 023500 | t= 8.410 | Pos Err: 35474.32 km | Vel Err: 3380.46 m/s
+Step 024000 | t= 8.574 | Pos Err: 48385.22 km | Vel Err: 5540.79 m/s
+Step 024500 | t= 8.741 | Pos Err: 60794.23 km | Vel Err: 8861.82 m/s
+Step 025000 | t= 8.909 | Pos Err: 55434.08 km | Vel Err: 6847.02 m/s
+Step 025500 | t= 9.111 | Pos Err: 64295.14 km | Vel Err: 8753.54 m/s
+Step 026000 | t= 9.308 | Pos Err: 46360.35 km | Vel Err: 4867.31 m/s
+Step 026500 | t= 9.483 | Pos Err: 52070.05 km | Vel Err: 5809.92 m/s
+Step 027000 | t= 9.655 | Pos Err: 63413.39 km | Vel Err: 8706.08 m/s
+Step 027500 | t= 9.809 | Pos Err: 61307.97 km | Vel Err: 8869.05 m/s
+Step 028000 | t= 9.973 | Pos Err: 49239.32 km | Vel Err: 5787.00 m/s
+Step 028500 | t=10.152 | Pos Err: 26296.50 km | Vel Err: 2275.29 m/s
+Step 029000 | t=10.354 | Pos Err: 15309.30 km | Vel Err: 1347.83 m/s
+Step 029500 | t=10.537 | Pos Err: 11328.89 km | Vel Err: 1123.50 m/s
+Step 030000 | t=10.710 | Pos Err: 1104.05 km | Vel Err:  140.58 m/s
+Step 030500 | t=10.879 | Pos Err: 21791.34 km | Vel Err: 6071.38 m/s
+Step 031000 | t=11.042 | Pos Err: 37606.25 km | Vel Err: 8515.32 m/s
+Step 031500 | t=11.218 | Pos Err: 38848.10 km | Vel Err: 5061.14 m/s
+Step 032000 | t=11.411 | Pos Err: 28659.96 km | Vel Err: 2603.68 m/s
+Step 032500 | t=11.595 | Pos Err: 34261.41 km | Vel Err: 3170.08 m/s
+Step 033000 | t=11.756 | Pos Err: 41552.18 km | Vel Err: 4004.36 m/s
+Step 033500 | t=11.922 | Pos Err: 52780.34 km | Vel Err: 5559.18 m/s
+Step 034000 | t=12.083 | Pos Err: 62037.21 km | Vel Err: 7661.15 m/s
+Step 034500 | t=12.246 | Pos Err: 61365.50 km | Vel Err: 7815.44 m/s
+Step 035000 | t=12.421 | Pos Err: 38046.86 km | Vel Err: 3509.66 m/s
+
+[*] Integration Complete: 60/4880 physical bounds checks passed.
+[*] Total ΔV Expended: 128.74 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_1.png
+[*] Generating 3D animation for Trajectory #1 (149 subsampled frames)...
+[*] Animation saved to: test_output_results/trajectory_animation_run_1.gif
+
+=======================================================
+[+] Starting Test Run #2 for mission profile: 'moon_orbit'
+=======================================================
+[*] Solving differential equations for closed-loop trajectory...
+Step 000500 | t= 0.092 | Pos Err:  806.60 km | Vel Err:  155.30 m/s
+
+[*] Integration Complete: 25/60 physical bounds checks passed.
+[*] Total ΔV Expended: 0.98 m/s
+[*] Saved single trajectory plot to: test_output_results/trajectory_results_run_2.png
+[*] Generating 3D animation for Trajectory #2 (60 subsampled frames)...
+[*] Animation saved to: test_output_results/trajectory_animation_run_2.gif
+
+=======================================================
+[+] Starting Test Run #3 for mission profile: 'transfer'
+=======================================================

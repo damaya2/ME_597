@@ -1,0 +1,8 @@
+=================================================
+Starting CRTBP Pipeline on gpua078.delta.ncsa.illinois.edu at Mon Aug 17 06:28:39 CDT 2026
+=================================================
+
+=======================================================
+[+] Starting Test Run #1 for mission profile: 'earth_orbit'
+=======================================================
+[!] ERROR: sim_results_multi.npy was not generated.

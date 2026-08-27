@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 395, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 370, in main
+    res = run_test_for_mission(m_type, traj_id=idx)
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 306, in run_test_for_mission
+    m_type, sol_ref, ref_fn = generate_reference_trajectory(mission_type)
+  File "/u/damaya2/UIUC_ME_597/Trajectories.py", line 190, in generate_reference_trajectory
+    spline = CubicSpline(sol.t, sol.y.T, bc_type='periodic')
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/interpolate/_cubic.py", line 745, in __init__
+    bc, y = self._validate_bc(bc_type, y, y.shape[1:], axis)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/interpolate/_cubic.py", line 918, in _validate_bc
+    raise ValueError(
+ValueError: The first and last `y` point along axis 0 must be identical (within machine precision) when bc_type='periodic'.

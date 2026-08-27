@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 395, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 370, in main
+    res = run_test_for_mission(m_type, traj_id=idx)
+  File "/u/damaya2/UIUC_ME_597/Test.py", line 315, in run_test_for_mission
+    sol_sim, u_history, safety_flags = simulate_controlled_trajectory(
+TypeError: simulate_controlled_trajectory() got an unexpected keyword argument 'MU'
