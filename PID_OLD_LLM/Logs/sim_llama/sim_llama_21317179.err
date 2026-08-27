@@ -1,0 +1,4 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:24,  8.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:16<00:16,  8.35s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:24<00:08,  8.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:26<00:00,  5.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:26<00:00,  6.72s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[2026-08-20T18:24:56.246] error: *** JOB 21317179 ON gpua069 CANCELLED AT 2026-08-20T18:24:56 DUE to SIGNAL Terminated ***

@@ -1,0 +1,16 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua040.delta.ncsa.illinois.edu at Thu Aug 20 18:55:45 CDT 2026
+=================================================
+Loading Base Tokenizer: meta-llama/Llama-3.1-8B-Instruct
+Loading Base Model in BF16 on cuda...
+Applying Fine-Tuned Adapter: ./results_llama3_1_8b_crtbp_fast_v1/final_adapter
+
+=================================================
+        RUNNING MISSION TYPE: earth_orbit
+=================================================
+
+--- Starting Closed-Loop Evaluation (earth_orbit) ---
+[earth_orbit | Step 000/075] t= 0.00 | Pos Err:     0.00 km | Thrust: 1.0058e-05 m/s²
+[earth_orbit | Step 020/075] t= 0.40 | Pos Err:  4561.17 km | Thrust: 1.1144e-03 m/s²
+[earth_orbit | Step 040/075] t= 0.80 | Pos Err: 13363.71 km | Thrust: 4.1243e-03 m/s²
+[earth_orbit | Step 060/075] t= 1.20 | Pos Err: 26324.03 km | Thrust: 3.1105e-03 m/s²

@@ -1,0 +1,27 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua062.delta.ncsa.illinois.edu at Thu Aug 20 13:56:52 CDT 2026
+=================================================
+Loading Base Tokenizer: meta-llama/Llama-3.1-8B-Instruct
+Loading Base Model in BF16 on cuda...
+Applying Fine-Tuned Adapter: ./results_llama3_1_8b_crtbp_fast_v1/final_adapter
+[Multiple Shooting] Converged in 2 iterations with residual 1.65e-11
+
+--- Starting Closed-Loop Evaluation (halo_l1) ---
+[Step 000/075] t= 0.00 | Pos Err:   308.22 km | Thrust: 3.6813e-04 m/s²
+[Step 020/075] t= 0.40 | Pos Err: 13346.28 km | Thrust: 1.5762e-03 m/s²
+[Step 040/075] t= 0.80 | Pos Err: 57415.45 km | Thrust: 3.2526e-03 m/s²
+[Step 060/075] t= 1.20 | Pos Err: 165234.92 km | Thrust: 3.4000e-04 m/s²
+[Step 074/075] t= 1.48 | Pos Err: 292513.18 km | Thrust: 1.0221e-03 m/s²
+
+================ LLM PERFORMANCE METRICS ================
+RMS Position Error : 119221.15 km
+Max Position Error : 292513.18 km
+RMS Velocity Error : 813.7530 m/s
+Total Delta-V      : 1209.0199 m/s
+Safety Check Pass  : 28/75 steps
+=========================================================
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+Visualization pipeline completed successfully!
+Job finished at Thu Aug 20 14:08:04 CDT 2026

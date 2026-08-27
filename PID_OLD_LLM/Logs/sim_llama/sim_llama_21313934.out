@@ -1,0 +1,124 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua037.delta.ncsa.illinois.edu at Thu Aug 20 15:24:18 CDT 2026
+=================================================
+Loading Base Tokenizer: meta-llama/Llama-3.1-8B-Instruct
+Loading Base Model in BF16 on cuda...
+Applying Fine-Tuned Adapter: ./results_llama3_1_8b_crtbp_fast_v1/final_adapter
+
+=================================================
+       RUNNING MISSION TYPE: earth_orbit
+=================================================
+
+--- Starting Closed-Loop Evaluation (earth_orbit) ---
+[earth_orbit | Step 000/075] t= 0.00 | Pos Err:   107.32 km | Thrust: 1.4984e-03 m/s²
+[earth_orbit | Step 020/075] t= 0.40 | Pos Err:  2014.12 km | Thrust: 1.4232e-03 m/s²
+[earth_orbit | Step 040/075] t= 0.80 | Pos Err:  7231.51 km | Thrust: 1.1145e-03 m/s²
+[earth_orbit | Step 060/075] t= 1.20 | Pos Err: 29348.38 km | Thrust: 1.7365e-03 m/s²
+[earth_orbit | Step 074/075] t= 1.48 | Pos Err: 87511.09 km | Thrust: 1.9838e-04 m/s²
+
+[earth_orbit] METRICS SUMMARY:
+  RMS Position Error : 28043.72 km
+  Max Position Error : 87511.09 km
+  RMS Velocity Error : 296.8173 m/s
+  Total Delta-V       : 1269.2937 m/s
+  Safety Check Pass  : 59/75 steps
+
+=================================================
+       RUNNING MISSION TYPE: moon_orbit
+=================================================
+
+--- Starting Closed-Loop Evaluation (moon_orbit) ---
+[moon_orbit | Step 000/075] t= 0.00 | Pos Err:    11.00 km | Thrust: 4.4336e-04 m/s²
+[moon_orbit | Step 020/075] t= 0.40 | Pos Err:  6492.41 km | Thrust: 2.1120e-03 m/s²
+[moon_orbit | Step 040/075] t= 0.80 | Pos Err: 10994.65 km | Thrust: 1.1144e-03 m/s²
+[moon_orbit | Step 060/075] t= 1.20 | Pos Err: 20603.89 km | Thrust: 1.9189e-04 m/s²
+[moon_orbit | Step 074/075] t= 1.48 | Pos Err: 14968.51 km | Thrust: 1.8461e-03 m/s²
+
+[moon_orbit] METRICS SUMMARY:
+  RMS Position Error : 12197.14 km
+  Max Position Error : 21279.24 km
+  RMS Velocity Error : 132.4481 m/s
+  Total Delta-V       : 899.8027 m/s
+  Safety Check Pass  : 75/75 steps
+
+=================================================
+       RUNNING MISSION TYPE: transfer
+=================================================
+
+--- Starting Closed-Loop Evaluation (transfer) ---
+[transfer | Step 000/075] t= 0.00 | Pos Err:    76.51 km | Thrust: 4.2571e-04 m/s²
+[transfer | Step 020/075] t= 0.40 | Pos Err:  2492.15 km | Thrust: 1.3264e-03 m/s²
+[transfer | Step 040/075] t= 0.80 | Pos Err: 13789.20 km | Thrust: 4.1742e-03 m/s²
+[transfer | Step 060/075] t= 1.20 | Pos Err: 96637.33 km | Thrust: 5.1083e-03 m/s²
+[transfer | Step 074/075] t= 1.48 | Pos Err: 115470.60 km | Thrust: 1.5672e-04 m/s²
+
+[transfer] METRICS SUMMARY:
+  RMS Position Error : 45738.26 km
+  Max Position Error : 115470.60 km
+  RMS Velocity Error : 2148.0843 m/s
+  Total Delta-V       : 688.1115 m/s
+  Safety Check Pass  : 50/75 steps
+
+=================================================
+       RUNNING MISSION TYPE: halo_l1
+=================================================
+[Multiple Shooting] Converged in 2 iterations with residual 2.26e-11
+
+--- Starting Closed-Loop Evaluation (halo_l1) ---
+[halo_l1 | Step 000/075] t= 0.00 | Pos Err:    13.45 km | Thrust: 1.9833e-04 m/s²
+[halo_l1 | Step 020/075] t= 0.40 | Pos Err:  6935.23 km | Thrust: 3.4395e-03 m/s²
+[halo_l1 | Step 040/075] t= 0.80 | Pos Err: 41417.05 km | Thrust: 1.8632e-03 m/s²
+[halo_l1 | Step 060/075] t= 1.20 | Pos Err: 140234.67 km | Thrust: 2.1837e-04 m/s²
+[halo_l1 | Step 074/075] t= 1.48 | Pos Err: 263889.23 km | Thrust: 1.8256e-04 m/s²
+
+[halo_l1] METRICS SUMMARY:
+  RMS Position Error : 102514.53 km
+  Max Position Error : 263889.23 km
+  RMS Velocity Error : 708.0616 m/s
+  Total Delta-V       : 1197.0627 m/s
+  Safety Check Pass  : 34/75 steps
+
+=================================================
+       RUNNING MISSION TYPE: halo_l2
+=================================================
+[Multiple Shooting] Converged in 2 iterations with residual 1.39e-15
+
+--- Starting Closed-Loop Evaluation (halo_l2) ---
+[halo_l2 | Step 000/075] t= 0.00 | Pos Err:    11.34 km | Thrust: 2.5830e-04 m/s²
+[halo_l2 | Step 020/075] t= 0.40 | Pos Err:  5948.07 km | Thrust: 1.1145e-03 m/s²
+[halo_l2 | Step 040/075] t= 0.80 | Pos Err: 26565.97 km | Thrust: 5.3306e-03 m/s²
+[halo_l2 | Step 060/075] t= 1.20 | Pos Err: 78865.60 km | Thrust: 1.9190e-04 m/s²
+[halo_l2 | Step 074/075] t= 1.48 | Pos Err: 107561.12 km | Thrust: 1.7900e-04 m/s²
+
+[halo_l2] METRICS SUMMARY:
+  RMS Position Error : 50944.49 km
+  Max Position Error : 107561.12 km
+  RMS Velocity Error : 280.1936 m/s
+  Total Delta-V       : 1124.2248 m/s
+  Safety Check Pass  : 40/75 steps
+
+=================================================
+       RUNNING MISSION TYPE: dro
+=================================================
+[Multiple Shooting] Converged in 7 iterations with residual 1.65e-14
+
+--- Starting Closed-Loop Evaluation (dro) ---
+[dro | Step 000/075] t= 0.00 | Pos Err:    86.49 km | Thrust: 1.3244e-03 m/s²
+[dro | Step 020/075] t= 0.40 | Pos Err: 10717.18 km | Thrust: 3.4373e-03 m/s²
+[dro | Step 040/075] t= 0.80 | Pos Err: 50290.55 km | Thrust: 2.6661e-03 m/s²
+[dro | Step 060/075] t= 1.20 | Pos Err: 114966.84 km | Thrust: 1.0550e-03 m/s²
+[dro | Step 074/075] t= 1.48 | Pos Err: 156538.10 km | Thrust: 1.5669e-04 m/s²
+
+[dro] METRICS SUMMARY:
+  RMS Position Error : 75725.86 km
+  Max Position Error : 156538.10 km
+  RMS Velocity Error : 669.8413 m/s
+  Total Delta-V       : 1111.5534 m/s
+  Safety Check Pass  : 29/75 steps
+
+All 6 mission evaluations completed! Results saved to eval_comparison_results.json.
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+Visualization pipeline completed successfully!
+Job finished at Thu Aug 20 16:27:13 CDT 2026
