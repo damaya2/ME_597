@@ -1,0 +1,13 @@
+/u/damaya2/UIUC_ME_597/Training_LLM.py:13: FutureWarning: Support for Python 3.9 will be dropped in the next release (after its end-of-life on October 31, 2025). Please upgrade to Python 3.10 or newer.
+  from trl import SFTConfig, SFTTrainer
+Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:18<00:18,  9.34s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  6.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  7.50s/it]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Training_LLM.py", line 174, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Training_LLM.py", line 148, in main
+    trainer = SFTTrainer(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/trl/trainer/sft_trainer.py", line 799, in __init__
+    raise ValueError(
+ValueError: A formatting function was provided while `completion_only_loss=True`, which is incompatible. Using a formatter converts the dataset to a language modeling type, conflicting with completion-only loss. To resolve this, apply your formatting function before passing the dataset, or disable `completion_only_loss` in `SFTConfig`.

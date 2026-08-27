@@ -1,0 +1,10 @@
+Starting Fresh Llama-3.1-8B-Instruct 3-Epoch SFT on gpua044.delta.ncsa.illinois.edu at Tue Aug 18 06:34:47 CDT 2026
+--- Hugging Face Authenticated Successfully ---
+--- Loading CRTBP Dataset (crtbp_llm_dataset_20260818_042728.jsonl) ---
+--- Mapping 'response' column to 'completion' ---
+Train Dataset Size: 768,398 samples
+Eval Dataset Size : 5,000 samples
+--- Loading Base Model: meta-llama/Llama-3.1-8B-Instruct ---
+--- Defining LoRA Configuration ---
+--- Initializing SFTTrainer ---
+Job finished at Tue Aug 18 06:35:46 CDT 2026
