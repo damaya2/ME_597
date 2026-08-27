@@ -95,7 +95,7 @@ For system allocations, module environments, and cluster-specific job setup guid
 
 ## Contact
 
-**Author:** Daniel Amaya
+**Author:** Daniel Amaya  
 **Advisor:** Dr. Hiroyasu Tsukamoto  
 **Institution:** University of Illinois Urbana-Champaign  
 **Department:** Aerospace Engineering / Mechanical Science and Engineering
