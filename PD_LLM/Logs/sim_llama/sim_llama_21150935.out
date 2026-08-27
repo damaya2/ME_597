@@ -1,0 +1,16 @@
+Starting Closed-Loop Guidance Simulation on gpua033.delta.ncsa.illinois.edu at Fri Aug 14 17:10:18 CDT 2026
+[*] Compute Device: cuda
+[*] Loading base model: meta-llama/Llama-3.1-8B-Instruct
+[*] Loading fine-tuned LoRA adapter from: /u/damaya2/UIUC_ME_597/results_llama3_1_8b_crtbp_sft_v2/final_adapter
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION | Mission: earth_orbit
+========================================================
+
+Initial Position Perturbation : [120. -80.  30.] km
+Initial Velocity Perturbation : [ 0.4 -0.3  0.1] m/s
+Simulating for 40 steps (dt = 0.050 TU = 5.2 hrs)
+
+[REALISTIC DISTURBANCE] Step 01 | Thruster Misfire / Solar Pressure ΔV Kick: 7.24 cm/s (0.0724 m/s)
+[Warning] Step 1: Model predicted out-of-bounds control or critical error!
+Simulation job finished at Fri Aug 14 17:11:25 CDT 2026

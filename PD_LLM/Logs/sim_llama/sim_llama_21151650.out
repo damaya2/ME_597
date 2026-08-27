@@ -1,0 +1,17 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua043.delta.ncsa.illinois.edu at Fri Aug 14 18:06:36 CDT 2026
+=================================================
+[*] Compute Device: cuda
+[*] Loading base model: meta-llama/Llama-3.1-8B-Instruct
+[*] Loading fine-tuned LoRA adapter from: /u/damaya2/UIUC_ME_597/results_llama3_1_8b_crtbp_sft_v2/final_adapter
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 1] | Mission: earth_orbit
+========================================================
+
+Initial Position Perturbation : [120. -80.  30.] km
+Initial Velocity Perturbation : [ 0.4 -0.3  0.1] m/s
+Simulating for 40 steps (dt = 0.050 TU = 5.2 hrs)
+
+[RAW LLM PREDICTION]: Commanding a continuous thrust acceleration vector of -2.9956e-06 m/s^2 (-0.001097 canonical units) along the X-axis, +2.1209e-06 m/s^2 (0.000778 canonical units) along the Y-axis, and -7.0779e-07 m/s^2 (-0.000259 canonical units) along the Z-axis. This applies a total physical thrust acceleration magnitude of 3.7449e-06 m/s^2, oriented toward an azimuth of 143.8 degrees and an elevation of -11.4 degrees.
+[!] ERROR: Neither sim_results_multi.npy nor sim_results.npy was generated.

@@ -1,0 +1,153 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua092.delta.ncsa.illinois.edu at Sun Aug 16 19:44:00 CDT 2026
+=================================================
+[*] Loading base model: meta-llama/Llama-3.1-8B-Instruct
+[*] Loading fine-tuned LoRA adapter from: /u/damaya2/UIUC_ME_597/results_llama3_1_8b_crtbp_sft_v2/final_adapter
+
+========================================================
+ STARTING CLOSED-LOOP IMPULSIVE SIMULATION [Traj 1] | Mission: transfer
+ TCM Window: Every 50 steps (~4.17 hours)
+========================================================
+
+[TCM @ Step 0000] Executed Impulsive Burn: Δv = 0.0123 m/s | Vector: [0.000000, 0.000012, 0.000000]
+Step 0050/1400 | t=0.040 | Pos Err:    1.94 km | Vel Err:   0.34 m/s | Cum ΔV:  0.012 m/s
+[TCM @ Step 0050] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.000000, 0.004880, 0.000002]
+Step 0100/1400 | t=0.080 | Pos Err:   71.55 km | Vel Err:   5.08 m/s | Cum ΔV:  5.012 m/s
+[TCM @ Step 0100] Executed Impulsive Burn: Δv = 0.0294 m/s | Vector: [0.000018, 0.000022, -0.000004]
+Step 0150/1400 | t=0.120 | Pos Err:  154.68 km | Vel Err:   6.31 m/s | Cum ΔV:  5.042 m/s
+[TCM @ Step 0150] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.000000, 0.004880, 0.000000]
+Step 0200/1400 | t=0.160 | Pos Err:  325.72 km | Vel Err:  11.97 m/s | Cum ΔV: 10.042 m/s
+[TCM @ Step 0200] Executed Impulsive Burn: Δv = 0.0687 m/s | Vector: [-0.000029, -0.000061, -0.000004]
+Step 0250/1400 | t=0.200 | Pos Err:  509.81 km | Vel Err:  12.91 m/s | Cum ΔV: 10.110 m/s
+[TCM @ Step 0250] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000023]
+Step 0300/1400 | t=0.240 | Pos Err:  776.49 km | Vel Err:  18.29 m/s | Cum ΔV: 15.110 m/s
+[TCM @ Step 0300] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, -0.000023]
+Step 0350/1400 | t=0.280 | Pos Err:  986.24 km | Vel Err:  15.03 m/s | Cum ΔV: 20.110 m/s
+[TCM @ Step 0350] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000014]
+Step 0400/1400 | t=0.320 | Pos Err: 1273.85 km | Vel Err:  19.81 m/s | Cum ΔV: 25.110 m/s
+[TCM @ Step 0400] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000006]
+Step 0450/1400 | t=0.360 | Pos Err: 1637.49 km | Vel Err:  24.75 m/s | Cum ΔV: 30.110 m/s
+[TCM @ Step 0450] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000007]
+Step 0500/1400 | t=0.400 | Pos Err: 2076.81 km | Vel Err:  29.77 m/s | Cum ΔV: 35.110 m/s
+[TCM @ Step 0500] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000008]
+Step 0550/1400 | t=0.440 | Pos Err: 2591.78 km | Vel Err:  34.82 m/s | Cum ΔV: 40.110 m/s
+[TCM @ Step 0550] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004879, -0.000104]
+Step 0600/1400 | t=0.480 | Pos Err: 3182.27 km | Vel Err:  39.88 m/s | Cum ΔV: 45.110 m/s
+[TCM @ Step 0600] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004878, -0.000130]
+Step 0650/1400 | t=0.520 | Pos Err: 3847.97 km | Vel Err:  44.95 m/s | Cum ΔV: 50.110 m/s
+[TCM @ Step 0650] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004878, -0.000155]
+Step 0700/1400 | t=0.560 | Pos Err: 4588.52 km | Vel Err:  50.02 m/s | Cum ΔV: 55.110 m/s
+[TCM @ Step 0700] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004877, -0.000165]
+Step 0750/1400 | t=0.600 | Pos Err: 5403.40 km | Vel Err:  55.09 m/s | Cum ΔV: 60.110 m/s
+[TCM @ Step 0750] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000015]
+Step 0800/1400 | t=0.640 | Pos Err: 6291.85 km | Vel Err:  60.13 m/s | Cum ΔV: 65.110 m/s
+[TCM @ Step 0800] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 0850/1400 | t=0.680 | Pos Err: 7206.52 km | Vel Err:  62.74 m/s | Cum ΔV: 70.110 m/s
+[TCM @ Step 0850] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000014]
+Step 0900/1400 | t=0.720 | Pos Err: 8190.45 km | Vel Err:  67.47 m/s | Cum ΔV: 75.110 m/s
+[TCM @ Step 0900] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 0950/1400 | t=0.760 | Pos Err: 9200.98 km | Vel Err:  70.68 m/s | Cum ΔV: 80.110 m/s
+[TCM @ Step 0950] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1000/1400 | t=0.800 | Pos Err: 10239.26 km | Vel Err:  74.33 m/s | Cum ΔV: 85.110 m/s
+[TCM @ Step 1000] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1050/1400 | t=0.840 | Pos Err: 11307.57 km | Vel Err:  78.34 m/s | Cum ΔV: 90.110 m/s
+[TCM @ Step 1050] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1100/1400 | t=0.880 | Pos Err: 12408.65 km | Vel Err:  82.67 m/s | Cum ΔV: 95.110 m/s
+[TCM @ Step 1100] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1150/1400 | t=0.920 | Pos Err: 13545.59 km | Vel Err:  87.26 m/s | Cum ΔV: 100.110 m/s
+[TCM @ Step 1150] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1200/1400 | t=0.960 | Pos Err: 14721.45 km | Vel Err:  92.07 m/s | Cum ΔV: 105.110 m/s
+[TCM @ Step 1200] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1250/1400 | t=1.000 | Pos Err: 15939.29 km | Vel Err:  97.07 m/s | Cum ΔV: 110.110 m/s
+[TCM @ Step 1250] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1300/1400 | t=1.040 | Pos Err: 17202.04 km | Vel Err: 102.24 m/s | Cum ΔV: 115.110 m/s
+[TCM @ Step 1300] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1350/1400 | t=1.080 | Pos Err: 18512.41 km | Vel Err: 107.54 m/s | Cum ΔV: 120.110 m/s
+[TCM @ Step 1350] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000000, 0.004365]
+Step 1400/1400 | t=1.120 | Pos Err: 19872.98 km | Vel Err: 112.96 m/s | Cum ΔV: 125.110 m/s
+
+========================================================
+ STARTING CLOSED-LOOP IMPULSIVE SIMULATION [Traj 2] | Mission: transfer
+ TCM Window: Every 50 steps (~4.17 hours)
+========================================================
+
+[TCM @ Step 0000] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.000000, 0.004880, 0.000000]
+Step 0050/1400 | t=0.040 | Pos Err:   79.01 km | Vel Err:   3.02 m/s | Cum ΔV:  5.000 m/s
+[TCM @ Step 0050] Executed Impulsive Burn: Δv = 0.0346 m/s | Vector: [0.000032, -0.000011, 0.000003]
+Step 0100/1400 | t=0.080 | Pos Err:   90.26 km | Vel Err:   3.99 m/s | Cum ΔV:  5.035 m/s
+[TCM @ Step 0100] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000018]
+Step 0150/1400 | t=0.120 | Pos Err:  201.60 km | Vel Err:   8.61 m/s | Cum ΔV: 10.035 m/s
+[TCM @ Step 0150] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.000433, 0.004861, -0.000000]
+Step 0200/1400 | t=0.160 | Pos Err:  406.67 km | Vel Err:  14.48 m/s | Cum ΔV: 15.035 m/s
+[TCM @ Step 0200] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, -0.000019]
+Step 0250/1400 | t=0.200 | Pos Err:  573.08 km | Vel Err:  12.13 m/s | Cum ΔV: 20.035 m/s
+[TCM @ Step 0250] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000010]
+Step 0300/1400 | t=0.240 | Pos Err:  814.49 km | Vel Err:  16.67 m/s | Cum ΔV: 25.035 m/s
+[TCM @ Step 0300] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, -0.000013]
+Step 0350/1400 | t=0.280 | Pos Err: 1013.89 km | Vel Err:  14.45 m/s | Cum ΔV: 30.035 m/s
+[TCM @ Step 0350] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000056]
+Step 0400/1400 | t=0.320 | Pos Err: 1279.31 km | Vel Err:  18.24 m/s | Cum ΔV: 35.035 m/s
+[TCM @ Step 0400] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000007]
+Step 0450/1400 | t=0.360 | Pos Err: 1610.09 km | Vel Err:  22.56 m/s | Cum ΔV: 40.035 m/s
+[TCM @ Step 0450] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004880, -0.000008]
+Step 0500/1400 | t=0.400 | Pos Err: 2008.55 km | Vel Err:  27.13 m/s | Cum ΔV: 45.035 m/s
+[TCM @ Step 0500] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004879, -0.000091]
+Step 0550/1400 | t=0.440 | Pos Err: 2477.07 km | Vel Err:  31.85 m/s | Cum ΔV: 50.035 m/s
+[TCM @ Step 0550] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004879, -0.000114]
+Step 0600/1400 | t=0.480 | Pos Err: 3017.43 km | Vel Err:  36.65 m/s | Cum ΔV: 55.035 m/s
+[TCM @ Step 0600] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004878, -0.000135]
+Step 0650/1400 | t=0.520 | Pos Err: 3630.61 km | Vel Err:  41.50 m/s | Cum ΔV: 60.035 m/s
+[TCM @ Step 0650] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004878, -0.000157]
+Step 0700/1400 | t=0.560 | Pos Err: 4317.00 km | Vel Err:  46.37 m/s | Cum ΔV: 65.035 m/s
+[TCM @ Step 0700] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000000, 0.004877, -0.000165]
+Step 0750/1400 | t=0.600 | Pos Err: 5076.53 km | Vel Err:  51.25 m/s | Cum ΔV: 70.035 m/s
+[TCM @ Step 0750] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000001, 0.004877, -0.000185]
+Step 0800/1400 | t=0.640 | Pos Err: 5908.91 km | Vel Err:  56.14 m/s | Cum ΔV: 75.035 m/s
+[TCM @ Step 0800] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000013]
+Step 0850/1400 | t=0.680 | Pos Err: 6813.47 km | Vel Err:  61.02 m/s | Cum ΔV: 80.035 m/s
+[TCM @ Step 0850] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, -0.000014]
+Step 0900/1400 | t=0.720 | Pos Err: 7789.48 km | Vel Err:  65.88 m/s | Cum ΔV: 85.035 m/s
+[TCM @ Step 0900] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 0950/1400 | t=0.760 | Pos Err: 8799.10 km | Vel Err:  68.75 m/s | Cum ΔV: 90.035 m/s
+[TCM @ Step 0950] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1000/1400 | t=0.800 | Pos Err: 9840.03 km | Vel Err:  72.12 m/s | Cum ΔV: 95.035 m/s
+[TCM @ Step 1000] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1050/1400 | t=0.840 | Pos Err: 10912.37 km | Vel Err:  75.89 m/s | Cum ΔV: 100.035 m/s
+[TCM @ Step 1050] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1100/1400 | t=0.880 | Pos Err: 12017.42 km | Vel Err:  80.01 m/s | Cum ΔV: 105.035 m/s
+[TCM @ Step 1100] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1150/1400 | t=0.920 | Pos Err: 13157.36 km | Vel Err:  84.44 m/s | Cum ΔV: 110.035 m/s
+[TCM @ Step 1150] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1200/1400 | t=0.960 | Pos Err: 14334.64 km | Vel Err:  89.13 m/s | Cum ΔV: 115.035 m/s
+[TCM @ Step 1200] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1250/1400 | t=1.000 | Pos Err: 15551.94 km | Vel Err:  94.03 m/s | Cum ΔV: 120.035 m/s
+[TCM @ Step 1250] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1300/1400 | t=1.040 | Pos Err: 16811.97 km | Vel Err:  99.12 m/s | Cum ΔV: 125.035 m/s
+[TCM @ Step 1300] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1350/1400 | t=1.080 | Pos Err: 18117.34 km | Vel Err: 104.36 m/s | Cum ΔV: 130.035 m/s
+[TCM @ Step 1350] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002182, -0.000001, 0.004365]
+Step 1400/1400 | t=1.120 | Pos Err: 19470.55 km | Vel Err: 109.74 m/s | Cum ΔV: 135.035 m/s
+
+========================================================
+ STARTING CLOSED-LOOP IMPULSIVE SIMULATION [Traj 3] | Mission: transfer
+ TCM Window: Every 50 steps (~4.17 hours)
+========================================================
+
+[TCM @ Step 0000] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.003585, 0.003311, 0.000009]
+Step 0050/1400 | t=0.040 | Pos Err:   75.90 km | Vel Err:   2.02 m/s | Cum ΔV:  5.000 m/s
+[TCM @ Step 0050] Executed Impulsive Burn: Δv = 1.4918 m/s | Vector: [-0.000004, -0.001456, -0.000010]
+Step 0100/1400 | t=0.080 | Pos Err:   87.65 km | Vel Err:   2.99 m/s | Cum ΔV:  6.492 m/s
+[TCM @ Step 0100] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [0.002801, 0.003996, -0.000000]
+Step 0150/1400 | t=0.120 | Pos Err:  210.48 km | Vel Err:   9.36 m/s | Cum ΔV: 11.492 m/s
+[TCM @ Step 0150] Executed Impulsive Burn: Δv = 0.0122 m/s | Vector: [0.000002, -0.000002, -0.000012]
+Step 0200/1400 | t=0.160 | Pos Err:  362.39 km | Vel Err:  10.84 m/s | Cum ΔV: 11.504 m/s
+[TCM @ Step 0200] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, -0.000010]
+Step 0250/1400 | t=0.200 | Pos Err:  489.66 km | Vel Err:   9.54 m/s | Cum ΔV: 16.504 m/s
+[TCM @ Step 0250] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, -0.000003]
+Step 0300/1400 | t=0.240 | Pos Err:  599.26 km | Vel Err:  10.06 m/s | Cum ΔV: 21.504 m/s
+[TCM @ Step 0300] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, 0.000004]
+Step 0350/1400 | t=0.280 | Pos Err:  709.58 km | Vel Err:  12.44 m/s | Cum ΔV: 26.504 m/s
+[TCM @ Step 0350] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, 0.004880, 0.000012]
+Step 0400/1400 | t=0.320 | Pos Err:  841.10 km | Vel Err:   9.71 m/s | Cum ΔV: 31.504 m/s
+[TCM @ Step 0400] Executed Impulsive Burn: Δv = 5.0000 m/s | Vector: [-0.000013, -0.004880, 0.000006]
+Step 0450/1400 | t=0.360 | Pos Err:  978.09 km | Vel Err:  12.42 m/s | Cum ΔV: 36.504 m/s

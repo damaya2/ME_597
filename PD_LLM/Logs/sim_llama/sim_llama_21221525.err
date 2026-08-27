@@ -1,0 +1,51 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:26,  8.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:15<00:15,  7.63s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:22<00:07,  7.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:24<00:00,  5.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:24<00:00,  6.03s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+MovieWriter imagemagick unavailable; using Pillow instead.
+Traceback (most recent call last):
+  File "LLM_Trajectory.py", line 151, in animate_trajectory_3d
+    anim.save(save_path, writer="pillow", fps=fps)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 1069, in save
+    with writer.saving(self._fig, filename, dpi), \
+  File "/usr/lib64/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 220, in saving
+    self.setup(fig, outfile, dpi, *args, **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 483, in setup
+    super().setup(fig, outfile, dpi=dpi)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 175, in setup
+    Path(outfile).parent.resolve(strict=True)
+  File "/usr/lib64/python3.9/pathlib.py", line 1140, in resolve
+    s = self._accessor.realpath(self, strict=strict)
+  File "/usr/lib64/python3.9/posixpath.py", line 393, in realpath
+    return abspath(path)
+  File "/usr/lib64/python3.9/posixpath.py", line 380, in abspath
+    cwd = os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "LLM_Trajectory.py", line 511, in <module>
+    plot_single_trajectory_results(
+  File "LLM_Trajectory.py", line 378, in plot_single_trajectory_results
+    animate_trajectory_3d(sim_results, save_path=anim_path, fps=10)
+  File "LLM_Trajectory.py", line 153, in animate_trajectory_3d
+    anim.save(save_path, writer="imagemagick", fps=fps)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 1069, in save
+    with writer.saving(self._fig, filename, dpi), \
+  File "/usr/lib64/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 220, in saving
+    self.setup(fig, outfile, dpi, *args, **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 483, in setup
+    super().setup(fig, outfile, dpi=dpi)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/matplotlib/animation.py", line 175, in setup
+    Path(outfile).parent.resolve(strict=True)
+  File "/usr/lib64/python3.9/pathlib.py", line 1140, in resolve
+    s = self._accessor.realpath(self, strict=strict)
+  File "/usr/lib64/python3.9/posixpath.py", line 393, in realpath
+    return abspath(path)
+  File "/usr/lib64/python3.9/posixpath.py", line 380, in abspath
+    cwd = os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory

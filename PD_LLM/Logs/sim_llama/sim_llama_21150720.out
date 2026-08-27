@@ -1,0 +1,4 @@
+Starting Closed-Loop Guidance Simulation on gpua070.delta.ncsa.illinois.edu at Fri Aug 14 16:56:27 CDT 2026
+[*] Compute Device: cuda
+[!] Local model directory './fine_tuned_llama3_crtbp' not found.
+Simulation job finished at Fri Aug 14 16:56:40 CDT 2026

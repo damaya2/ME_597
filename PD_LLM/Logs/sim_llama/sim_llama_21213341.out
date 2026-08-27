@@ -1,0 +1,13 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua030.delta.ncsa.illinois.edu at Sun Aug 16 19:16:50 CDT 2026
+=================================================
+[*] Loading base model: meta-llama/Llama-3.1-8B-Instruct
+[*] Loading fine-tuned LoRA adapter from: /u/damaya2/UIUC_ME_597/results_llama3_1_8b_crtbp_sft_v2/final_adapter
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 1] | Mission: transfer
+========================================================
+
+Step 0050/1400 | t=0.040 | Pos Err:  288.12 km | Vel Err:  27.91 m/s | Cum ΔV: 43.152 m/s
+Step 0100/1400 | t=0.080 | Pos Err: 1144.41 km | Vel Err: 103.54 m/s | Cum ΔV: 116.845 m/s
+Step 0150/1400 | t=0.120 | Pos Err: 3169.21 km | Vel Err: 175.18 m/s | Cum ΔV: 175.116 m/s

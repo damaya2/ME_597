@@ -1,0 +1,2 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:11<00:35, 11.78s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:18,  9.10s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:25<00:07,  7.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  5.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.90s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

@@ -1,0 +1,3 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:12<00:37, 12.61s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:20<00:19,  9.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:27<00:08,  8.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  7.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  8.20s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[2026-08-16T19:38:27.685] error: *** JOB 21213341 ON gpua030 CANCELLED AT 2026-08-16T19:38:27 DUE to SIGNAL Terminated ***

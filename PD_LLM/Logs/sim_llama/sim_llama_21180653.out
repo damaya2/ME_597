@@ -1,0 +1,218 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua068.delta.ncsa.illinois.edu at Sun Aug 16 00:12:07 CDT 2026
+=================================================
+[*] Compute Device: cuda
+[*] Loading base model: meta-llama/Llama-3.1-8B-Instruct
+[*] Loading fine-tuned LoRA adapter from: /u/damaya2/UIUC_ME_597/results_llama3_1_8b_crtbp_sft_v2/final_adapter
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 1] | Mission: transfer
+========================================================
+
+Initial Position Perturbation : [120. -80.  30.] km
+Initial Velocity Perturbation : [ 0.4 -0.3  0.1] m/s
+Simulating for 80 steps (dt = 0.080 TU = 8.3 hrs)
+
+[RAW LLM PREDICTION]: Commanding a continuous thrust acceleration vector of -2.9956e-06 m/s^2 (-0.001097 canonical units) along the X-axis, +2.1209e-06 m/s^2 (0.000778 canonical units) along the Y-axis, and -7.0889e-07 m/s^2 (-0.000259 canonical units) along the Z-axis. This applies a total physical thrust acceleration magnitude of 3.7449e-06 m/s^2, oriented toward an azimuth of 143.8 degrees and an elevation of -11.4 degrees.
+Step 01/80 | t=0.080 | Pos Err: 2576.01 km | Vel Err: 178.08 m/s | Step ΔV: 163.928 m/s
+[RAW LLM PREDICTION]: To calculate the precise thrust acceleration vector needed to correct the tracking offset, we need to compute the difference between the target and current states.
+
+Current state:
+
+* Position: X = -0.007294e-05 m, Y = 1.8049e-05 m, Z = -2.3659e-06 m
+* Velocity: X = 2.4516e-05 m/s, Y = -4.7699e-05 m/s, Z = -2.7089e-05 m/s
+
+Target state:
+
+* Position: X = -0.006492e-05 m
+[Warning] Step 2: Model predicted out-of-bounds control or critical error!
+[CRITICAL] Terminal safety event triggered at t = 0.1257! (Impact/Escape)
+
+========================================================
+ SIMULATION COMPLETE [Traj 1]
+ Total Trajectory Duration : 8.34 Hours
+ Total Disturbances Encountered : 0
+ Final Position Error       : 2576.01 km
+ Final Velocity Error      : 178.08 m/s
+ Total Cumulative ΔV Spent  : 163.928 m/s
+========================================================
+
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 2] | Mission: transfer
+========================================================
+
+Initial Position Perturbation : [-90. 110. -40.] km
+Initial Velocity Perturbation : [-0.3  0.5 -0.2] m/s
+Simulating for 80 steps (dt = 0.080 TU = 8.3 hrs)
+
+[RAW LLM PREDICTION]: To determine the precise thrust acceleration vector needed to correct the tracking offset and maintain nominal trajectory, we need to calculate the total physical state change and apply it to the spacecraft's mass.
+
+Position tracking error: -5.2166e-07 m/s^2 (-0.000191 canonical units) along X-axis, -3.1969e-06 m/s^2 (-0.001170 canonical units) along Y-axis, and +1.3719e-06 m/s^2 (0.000502 canonical units) along Z-axis. This results in a total position tracking error magnitude of 3.5199
+Step 01/80 | t=0.080 | Pos Err: 2592.15 km | Vel Err: 164.47 m/s | Step ΔV: 163.927 m/s
+[RAW LLM PREDICTION]: To calculate the precise thrust acceleration vector needed to correct the tracking offset, we need to compute the total acceleration required to achieve the desired velocity change and position correction.
+
+First, let's calculate the total velocity change:
+
+ΔV = -2.7089e-05 m/s^2 (-0.009921 canonical units) along the X-axis
+-9.0119e-04 m/s^2 (-0.329844 canonical units) along the Y-axis
+-3.2169e-06 m/s^2 (-0.001178 canonical units) along the Z-axis
+
+The total velocity change magnitude is:
+
+Δ
+[Warning] Step 2: Model predicted out-of-bounds control or critical error!
+[CRITICAL] Terminal safety event triggered at t = 0.1250! (Impact/Escape)
+
+========================================================
+ SIMULATION COMPLETE [Traj 2]
+ Total Trajectory Duration : 8.34 Hours
+ Total Disturbances Encountered : 0
+ Final Position Error       : 2592.15 km
+ Final Velocity Error      : 164.47 m/s
+ Total Cumulative ΔV Spent  : 163.927 m/s
+========================================================
+
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 3] | Mission: transfer
+========================================================
+
+Initial Position Perturbation : [150.  60. -50.] km
+Initial Velocity Perturbation : [ 0.2 -0.4  0.3] m/s
+Simulating for 80 steps (dt = 0.080 TU = 8.3 hrs)
+
+[RAW LLM PREDICTION]: To determine the precise thrust acceleration vector needed to correct the tracking offset, I will calculate the total physical state error vector and then apply it to the spacecraft's mass to obtain the required thrust acceleration vector.
+
+The position tracking error vector is -1.5329e-06 m/s^2 (-0.000561 canonical units) along the X-axis, +1.3659e-06 m/s^2 (0.000500 canonical units) along the Y-axis, and -1.1969e-06 m/s^2 (-0.000438 canonical units) along the Z-axis. This results in a total physical
+Step 01/80 | t=0.080 | Pos Err: 2371.27 km | Vel Err: 167.11 m/s | Step ΔV: 163.928 m/s
+[RAW LLM PREDICTION]: To calculate the precise thrust acceleration vector needed to correct the tracking offset, we need to compute the difference between the target and current states.
+
+Current state:
+
+* Position: X = -0.011464 canonical units, Y = 0.098216 canonical units, Z = -7.1376 canonical units
+* Velocity: X = -0.084216 canonical units, Y = -0.5960 canonical units, Z = -7.7086 canonical units
+
+Target state:
+
+* Position: X = -0.011498 canonical units, Y = -0.000000 canonical units, Z = -7.071
+[Warning] Step 2: Model predicted out-of-bounds control or critical error!
+[CRITICAL] Terminal safety event triggered at t = 0.1253! (Impact/Escape)
+
+========================================================
+ SIMULATION COMPLETE [Traj 3]
+ Total Trajectory Duration : 8.34 Hours
+ Total Disturbances Encountered : 0
+ Final Position Error       : 2371.27 km
+ Final Velocity Error      : 167.11 m/s
+ Total Cumulative ΔV Spent  : 163.928 m/s
+========================================================
+
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 4] | Mission: transfer
+========================================================
+
+Initial Position Perturbation : [-110.  -90.   20.] km
+Initial Velocity Perturbation : [-0.5  0.2 -0.1] m/s
+Simulating for 80 steps (dt = 0.080 TU = 8.3 hrs)
+
+[RAW LLM PREDICTION]: Commanding a continuous thrust acceleration vector of +3.4026e-06 m/s^2 (0.001245 canonical units) along the X-axis, -3.2169e-07 m/s^2 (-0.000118 canonical units) along the Y-axis, and +4.2819e-07 m/s^2 (0.000157 canonical units) along the Z-axis. This applies a total physical thrust acceleration magnitude of 3.4429e-06 m/s^2, oriented toward an azimuth of 351.0 degrees and an elevation of 6.8 degrees.
+Step 01/80 | t=0.080 | Pos Err: 2612.42 km | Vel Err: 172.33 m/s | Step ΔV: 163.928 m/s
+[RAW LLM PREDICTION]: To calculate the precise thrust acceleration vector needed to correct the tracking offset, we need to compute the difference between the target and current states.
+
+Current state:
+
+* Position: X = -0.008314e-05 m, Y = 1.8049e-05 m, Z = -1.6159e-06 m
+* Velocity: X = -1.0326e-04 m/s, Y = -5.3659e-05 m/s, Z = 2.2089e-05 m/s
+
+Target state:
+
+* Position: X = -0.007216e-05 m
+[Warning] Step 2: Model predicted out-of-bounds control or critical error!
+[CRITICAL] Terminal safety event triggered at t = 0.1260! (Impact/Escape)
+
+========================================================
+ SIMULATION COMPLETE [Traj 4]
+ Total Trajectory Duration : 8.34 Hours
+ Total Disturbances Encountered : 0
+ Final Position Error       : 2612.42 km
+ Final Velocity Error      : 172.33 m/s
+ Total Cumulative ΔV Spent  : 163.928 m/s
+========================================================
+
+
+========================================================
+ STARTING CLOSED-LOOP SIMULATION [Traj 5] | Mission: transfer
+========================================================
+
+Initial Position Perturbation : [  75. -130.  -35.] km
+Initial Velocity Perturbation : [0.35 0.25 0.15] m/s
+Simulating for 80 steps (dt = 0.080 TU = 8.3 hrs)
+
+[RAW LLM PREDICTION]: To determine the precise thrust acceleration vector needed to correct the tracking offset, we need to calculate the total tracking error acceleration vector.
+
+Position tracking error acceleration vector:
+-0.1430e-06 m/s^2 (-0.000052 canonical units) along the X-axis
++8.2166e-07 m/s^2 (0.000301 canonical units) along the Y-axis
+-3.6159e-07 m/s^2 (-0.000132 canonical units) along the Z-axis
+
+Total position tracking error acceleration vector: +4.2166e-07 m/s^2 (0.
+Step 01/80 | t=0.080 | Pos Err: 2622.77 km | Vel Err: 176.26 m/s | Step ΔV: 163.927 m/s
+[RAW LLM PREDICTION]: To calculate the precise thrust acceleration vector needed to correct the tracking offset, we need to subtract the current state from the target state.
+
+Current state:
+
+* Position: X = -0.007074 canonical units, Y = 0.096111 canonical units, Z = 0.002973 canonical units
+* Velocity: X = -2.0716e-05 m/s, Y = -5.3859e-05 m/s, Z = 3.2169e-05 m/s
+
+Target state:
+
+* Position: X = -0.008492 canonical units, Y = -7.8046e
+[Warning] Step 2: Model predicted out-of-bounds control or critical error!
+[CRITICAL] Terminal safety event triggered at t = 0.1244! (Impact/Escape)
+
+========================================================
+ SIMULATION COMPLETE [Traj 5]
+ Total Trajectory Duration : 8.34 Hours
+ Total Disturbances Encountered : 0
+ Final Position Error       : 2622.77 km
+ Final Velocity Error      : 176.26 m/s
+ Total Cumulative ΔV Spent  : 163.927 m/s
+========================================================
+
+[*] Saved 5 trajectories successfully to 'sim_results_multi.npy'.
+
+========================================================
+         MULTI-TRAJECTORY SUMMARY (5 RUNS)             
+========================================================
+Traj #01 | Final Pos Err: 2576.01 km | Final Vel Err: 178.08 m/s | Total ΔV: 163.928 m/s | Disturbances: 0
+Traj #02 | Final Pos Err: 2592.15 km | Final Vel Err: 164.47 m/s | Total ΔV: 163.927 m/s | Disturbances: 0
+Traj #03 | Final Pos Err: 2371.27 km | Final Vel Err: 167.11 m/s | Total ΔV: 163.928 m/s | Disturbances: 0
+Traj #04 | Final Pos Err: 2612.42 km | Final Vel Err: 172.33 m/s | Total ΔV: 163.928 m/s | Disturbances: 0
+Traj #05 | Final Pos Err: 2622.77 km | Final Vel Err: 176.26 m/s | Total ΔV: 163.927 m/s | Disturbances: 0
+========================================================
+
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+[*] Loading multi-trajectory data from 'sim_results_multi.npy'...
+[*] Generating aggregated comparison plot for 5 trajectories...
+[*] Saved multi-trajectory summary plot to: multi_trajectory_summary.png
+[*] Saved single trajectory plot to: trajectory_results_run_1.png
+[*] Generating 3D trajectory animation for Trajectory #1...
+[*] Animation saved to: trajectory_animation_run_1.gif
+[*] Saved single trajectory plot to: trajectory_results_run_2.png
+[*] Generating 3D trajectory animation for Trajectory #2...
+[*] Animation saved to: trajectory_animation_run_2.gif
+[*] Saved single trajectory plot to: trajectory_results_run_3.png
+[*] Generating 3D trajectory animation for Trajectory #3...
+[*] Animation saved to: trajectory_animation_run_3.gif
+[*] Saved single trajectory plot to: trajectory_results_run_4.png
+[*] Generating 3D trajectory animation for Trajectory #4...
+[*] Animation saved to: trajectory_animation_run_4.gif
+[*] Saved single trajectory plot to: trajectory_results_run_5.png
+[*] Generating 3D trajectory animation for Trajectory #5...
+[*] Animation saved to: trajectory_animation_run_5.gif
+Visualization pipeline completed!
+Job finished at Sun Aug 16 00:14:26 CDT 2026
