@@ -1,0 +1,9 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:13<00:13,  6.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:21<00:06,  6.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:22<00:00,  5.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:22<00:00,  5.75s/it]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 491, in <module>
+    traj_result = run_closed_loop_simulation(
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 280, in run_closed_loop_simulation
+    t_ref, X_ref, _ = generate_reference_trajectory(
+TypeError: generate_reference_trajectory() got an unexpected keyword argument 'num_points'
+[2026-08-24T09:59:18.389] error: *** JOB 21403906 ON gpua039 CANCELLED AT 2026-08-24T09:59:18 DUE to SIGNAL Terminated ***

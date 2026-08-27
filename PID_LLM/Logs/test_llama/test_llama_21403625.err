@@ -1,0 +1,10 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:16<00:16,  8.29s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:23<00:07,  7.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.84s/it]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 490, in <module>
+    traj_result = run_closed_loop_simulation(
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 279, in run_closed_loop_simulation
+    t_ref, X_ref, _ = generate_reference_trajectory(
+TypeError: generate_reference_trajectory() got an unexpected keyword argument 'duration'
+/var/spool/slurmd/job21403625/slurm_script: line 43: 523984 Killed                  python3 -u LLM_Trajectories.py
+[2026-08-24T09:19:52.043] error: Detected 1 oom_kill event in StepId=21403625.batch. Some of the step tasks have been OOM Killed.

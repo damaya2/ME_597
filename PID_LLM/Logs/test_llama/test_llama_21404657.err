@@ -1,0 +1,10 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:13<00:41, 13.86s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:21<00:20, 10.40s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:35<00:11, 11.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:40<00:00,  9.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:40<00:00, 10.06s/it]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 509, in <module>
+    traj_result = run_closed_loop_simulation(
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 375, in run_closed_loop_simulation
+    active_a_pred, raw_llm_output = controller.predict_control(
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Controller.py", line 213, in predict_control
+    user_content = generate_prompt_text(
+TypeError: generate_prompt_text() missing 1 required positional argument: 'mission_objective'
+[2026-08-24T10:27:04.912] error: *** JOB 21404657 ON gpua045 CANCELLED AT 2026-08-24T10:27:04 DUE to SIGNAL Terminated ***

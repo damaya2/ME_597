@@ -1,0 +1,13 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua093.delta.ncsa.illinois.edu at Mon Aug 24 08:55:01 CDT 2026
+=================================================
+[!] Adapter path not found at: /u/damaya2/UIUC_ME_597_NEW/results_llama3_1_8b_crtbp_fast_v1/final_adapter
+Please train or specify a valid fine-tuned LoRA checkpoint path.
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+[*] Loading multi-trajectory data from 'sim_results_multi.npy'...
+[*] Generating aggregated comparison plot for 5 trajectories...
+[*] Saved multi-trajectory summary plot to: multi_trajectory_summary.png
+[*] Saved single trajectory plot to: trajectory_results_run_1.png
+[*] Generating 3D trajectory animation for Trajectory #1...

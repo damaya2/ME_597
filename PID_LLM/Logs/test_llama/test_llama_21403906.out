@@ -1,0 +1,20 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua039.delta.ncsa.illinois.edu at Mon Aug 24 09:53:39 CDT 2026
+=================================================
+[*] Loading base model: meta-llama/Llama-3.1-8B-Instruct
+[*] Loading fine-tuned LoRA adapter from: /u/damaya2/UIUC_ME_597_NEW/results_llama3_1_8b_crtbp_fast_v1/checkpoint-25000
+
+========================================================
+ STARTING CLOSED-LOOP CONTINUOUS SIMULATION [Traj 1] | Mission: transfer
+ LLM Update Interval: Every 5 steps (~1.04 hours)
+ Disturbance Activation: Explicitly delayed until step >= 50
+========================================================
+
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+[*] Loading multi-trajectory data from 'sim_results_multi.npy'...
+[*] Generating aggregated comparison plot for 5 trajectories...
+[*] Saved multi-trajectory summary plot to: multi_trajectory_summary.png
+[*] Saved single trajectory plot to: trajectory_results_run_1.png
+[*] Generating 3D trajectory animation for Trajectory #1...

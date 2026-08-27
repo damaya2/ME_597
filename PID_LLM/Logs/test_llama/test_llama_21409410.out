@@ -1,0 +1,152 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua018.delta.ncsa.illinois.edu at Mon Aug 24 14:11:15 CDT 2026
+=================================================
+Loading Base Model: meta-llama/Llama-3.1-8B-Instruct
+Loading Fine-Tuned LoRA Adapter: ./results_llama3_1_8b_crtbp_fast_v1/checkpoint-25000
+
+=================================================
+--- Running Mission #1: EARTH_ORBIT ---
+=================================================
+Step 000 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [+3.6300e-04, -4.1200e-04, -3.7000e-05]
+Step 010 | Pos Err:     0.04 km | Vel Err:   0.01 m/s | LLM Accel: [+2.5700e-04, +3.6700e-04, +3.6700e-04]
+Step 020 | Pos Err:     4.92 km | Vel Err:   1.63 m/s | LLM Accel: [+4.1800e-04, -4.6135e-02, +3.8500e-04]
+Step 030 | Pos Err:    19.06 km | Vel Err:   2.58 m/s | LLM Accel: [+3.6900e-04, -5.0000e-05, +4.0600e-04]
+Step 040 | Pos Err:    42.89 km | Vel Err:   3.34 m/s | LLM Accel: [+3.6900e-04, -4.6000e-05, +3.9800e-04]
+
+[!] Step 050 Perturbation Applied:
+    Pos Offset: [1.96619729 1.34714635 0.11808402] km
+    Vel Offset: [-0.0485048  -0.13501368 -0.06022626] m/s
+
+Step 050 | Pos Err:    69.15 km | Vel Err:   4.18 m/s | LLM Accel: [+4.0040e-03, -6.5643e-02, +3.9300e-04]
+Step 060 | Pos Err:   110.71 km | Vel Err:   6.79 m/s | LLM Accel: [+4.2120e-03, -6.5643e-02, +4.0600e-04]
+Step 070 | Pos Err:   161.01 km | Vel Err:   6.65 m/s | LLM Accel: [+2.2010e-03, -7.0000e-05, +4.0600e-04]
+Step 080 | Pos Err:   209.89 km | Vel Err:   6.44 m/s | LLM Accel: [+2.2580e-03, -4.9000e-05, +4.1100e-04]
+Step 090 | Pos Err:   257.43 km | Vel Err:   6.34 m/s | LLM Accel: [+2.1680e-03, -6.6000e-05, -3.2200e-04]
+Step 100 | Pos Err:   303.57 km | Vel Err:   6.15 m/s | LLM Accel: [+4.0000e-04, -7.1000e-05, +3.6700e-04]
+Step 110 | Pos Err:   348.38 km | Vel Err:   6.08 m/s | LLM Accel: [+4.0600e-03, -6.6000e-05, +6.4000e-05]
+Step 120 | Pos Err:   392.04 km | Vel Err:   6.03 m/s | LLM Accel: [+4.1400e-04, +7.1000e-05, +3.7000e-05]
+Step 130 | Pos Err:   432.88 km | Vel Err:   6.34 m/s | LLM Accel: [+4.0600e-04, +3.9810e-03, +4.9849e-01]
+Step 140 | Pos Err:   478.99 km | Vel Err:   6.23 m/s | LLM Accel: [+4.3300e-04, +6.6000e-05, +4.9900e-04]
+
+=================================================
+--- Running Mission #2: MOON_ORBIT ---
+=================================================
+Step 000 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [-3.3300e-04, +2.8000e-05, +2.6000e-05]
+Step 010 | Pos Err:     0.03 km | Vel Err:   0.01 m/s | LLM Accel: [-4.4200e-04, +3.7000e-05, +3.7000e-05]
+Step 020 | Pos Err:     0.14 km | Vel Err:   0.02 m/s | LLM Accel: [-5.7300e-04, +3.7000e-05, +3.7000e-05]
+Step 030 | Pos Err:     0.33 km | Vel Err:   0.03 m/s | LLM Accel: [-7.3600e-04, +3.7000e-05, +3.7000e-05]
+Step 040 | Pos Err:     0.60 km | Vel Err:   0.10 m/s | LLM Accel: [+3.6710e-03, -3.6707e-02, +3.6707e-02]
+
+[!] Step 050 Perturbation Applied:
+    Pos Offset: [ 2.51377145  0.19669166 -2.99032091] km
+    Vel Offset: [0.08693524 0.07571598 0.14211176] m/s
+
+Step 050 | Pos Err:     2.72 km | Vel Err:   0.89 m/s | LLM Accel: [+4.2098e-02, -4.3519e-02, +3.9687e-02]
+Step 060 | Pos Err:     8.90 km | Vel Err:   1.42 m/s | LLM Accel: [-4.0625e-02, -6.5643e-02, -3.8916e-02]
+Step 070 | Pos Err:    19.54 km | Vel Err:   1.47 m/s | LLM Accel: [-4.7300e-04, -5.0000e-05, -3.6700e-04]
+Step 080 | Pos Err:    30.51 km | Vel Err:   1.46 m/s | LLM Accel: [-4.0600e-04, -4.9900e-03, -3.7000e-05]
+Step 090 | Pos Err:    41.24 km | Vel Err:   1.47 m/s | LLM Accel: [-4.0600e-04, +3.9180e-03, +3.9700e-04]
+Step 100 | Pos Err:    52.21 km | Vel Err:   1.50 m/s | LLM Accel: [-4.7300e-04, +4.0010e-03, +3.9700e-04]
+Step 110 | Pos Err:    63.27 km | Vel Err:   1.52 m/s | LLM Accel: [-4.9900e-04, -4.9900e-03, -3.9800e-04]
+Step 120 | Pos Err:    74.48 km | Vel Err:   1.57 m/s | LLM Accel: [-4.0600e-04, +4.6000e-05, +4.0600e-04]
+Step 130 | Pos Err:    86.35 km | Vel Err:   1.81 m/s | LLM Accel: [-4.0600e-03, -4.3089e-02, +3.9810e-03]
+Step 140 | Pos Err:   100.67 km | Vel Err:   2.12 m/s | LLM Accel: [-4.0040e-03, +3.9810e-03, +3.9800e-04]
+
+=================================================
+--- Running Mission #3: TRANSFER ---
+=================================================
+Step 000 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [-3.8900e-04, +3.5000e-05, -3.7000e-05]
+Step 010 | Pos Err:     0.04 km | Vel Err:   0.01 m/s | LLM Accel: [-2.9800e-04, -4.1800e-04, +3.7500e-04]
+Step 020 | Pos Err:     0.15 km | Vel Err:   0.02 m/s | LLM Accel: [+3.6700e-04, -3.6700e-04, -3.9800e-04]
+Step 030 | Pos Err:     2.09 km | Vel Err:   0.58 m/s | LLM Accel: [+4.2098e-02, -4.2099e-02, +4.2100e-04]
+Step 040 | Pos Err:    11.90 km | Vel Err:   2.71 m/s | LLM Accel: [-4.2098e-02, -4.9772e-02, +3.9600e-01]
+
+[!] Step 050 Perturbation Applied:
+    Pos Offset: [-0.86071001 -2.5690152   0.96090294] km
+    Vel Offset: [-0.14176483 -0.06787109  0.13550583] m/s
+
+Step 050 | Pos Err:    36.27 km | Vel Err:   3.16 m/s | LLM Accel: [-4.2100e-04, -4.9900e-04, +3.6700e-04]
+Step 060 | Pos Err:    64.30 km | Vel Err:   4.74 m/s | LLM Accel: [-4.2120e-03, -4.9772e-02, +4.1258e-01]
+Step 070 | Pos Err:   106.49 km | Vel Err:   8.55 m/s | LLM Accel: [-4.2110e-03, -4.0700e-03, +3.9800e-04]
+Step 080 | Pos Err:   177.76 km | Vel Err:  19.78 m/s | LLM Accel: [-4.2120e-03, +4.2680e-03, +3.9800e-04]
+Step 090 | Pos Err:   243.34 km | Vel Err:  23.30 m/s | LLM Accel: [-4.2110e-03, -4.3040e-03, +3.9800e-04]
+Step 100 | Pos Err:   267.09 km | Vel Err:  15.53 m/s | LLM Accel: [-4.2048e-02, -4.2071e-02, +4.0000e-03]
+Step 110 | Pos Err:   272.03 km | Vel Err:  10.70 m/s | LLM Accel: [-4.2100e-04, -4.2205e-02, +3.8470e-03]
+Step 120 | Pos Err:   266.97 km | Vel Err:   8.06 m/s | LLM Accel: [+4.2100e-04, -4.2100e-04, +3.9800e-04]
+Step 130 | Pos Err:   256.78 km | Vel Err:   6.57 m/s | LLM Accel: [-4.2020e-03, +0.0000e+00, +0.0000e+00]
+Step 140 | Pos Err:   238.07 km | Vel Err:   6.17 m/s | LLM Accel: [-1.0911e-02, +4.0000e-02, +4.1827e-02]
+[Multiple Shooting] Converged in 2 iterations with residual 3.87e-11
+
+=================================================
+--- Running Mission #4: HALO_L1 ---
+=================================================
+Step 000 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [-3.7100e-04, +2.9000e-05, -1.8000e-05]
+Step 010 | Pos Err:     0.04 km | Vel Err:   0.01 m/s | LLM Accel: [-3.4400e-04, -3.6700e-04, +4.0000e-05]
+Step 020 | Pos Err:     0.49 km | Vel Err:   0.38 m/s | LLM Accel: [-4.2098e-02, -3.9205e-02, -3.9203e-02]
+Step 030 | Pos Err:     6.57 km | Vel Err:   1.33 m/s | LLM Accel: [-4.7270e-03, -6.5598e-02, -3.8518e-02]
+Step 040 | Pos Err:    19.02 km | Vel Err:   1.99 m/s | LLM Accel: [-4.7300e-04, -3.8880e-03, -4.9900e-03]
+
+[!] Step 050 Perturbation Applied:
+    Pos Offset: [-2.77828395  0.5338703  -1.81117796] km
+    Vel Offset: [ 0.1870141   0.11874161 -0.16872143] m/s
+
+Step 050 | Pos Err:    37.35 km | Vel Err:   2.30 m/s | LLM Accel: [-4.2120e-03, -4.9900e-03, -3.7400e-04]
+Step 060 | Pos Err:    55.83 km | Vel Err:   2.73 m/s | LLM Accel: [-4.0600e-03, -4.9772e-02, -4.1402e-02]
+Step 070 | Pos Err:    77.88 km | Vel Err:   3.06 m/s | LLM Accel: [-4.2100e-04, -6.6000e-05, -4.0000e-05]
+Step 080 | Pos Err:   103.53 km | Vel Err:   3.73 m/s | LLM Accel: [-4.1770e-03, +4.2120e-03, +3.9700e-04]
+Step 090 | Pos Err:   134.33 km | Vel Err:   4.34 m/s | LLM Accel: [-4.2100e-04, -4.2120e-03, -2.3300e-04]
+Step 100 | Pos Err:   168.13 km | Vel Err:   4.84 m/s | LLM Accel: [-3.7690e-03, -4.2774e-02, -4.9772e-02]
+Step 110 | Pos Err:   207.04 km | Vel Err:   5.46 m/s | LLM Accel: [-3.6900e-04, -4.2110e-03, -3.8900e-04]
+Step 120 | Pos Err:   248.45 km | Vel Err:   5.57 m/s | LLM Accel: [-3.7230e-03, +0.0000e+00, +0.0000e+00]
+Step 130 | Pos Err:   290.22 km | Vel Err:   5.67 m/s | LLM Accel: [-3.7500e-04, -5.0000e-05, -4.0000e-05]
+Step 140 | Pos Err:   332.45 km | Vel Err:   5.64 m/s | LLM Accel: [-3.7700e-04, -7.1000e-05, -3.9000e-05]
+[Multiple Shooting] Converged in 4 iterations with residual 1.40e-14
+
+=================================================
+--- Running Mission #5: DRO ---
+=================================================
+Step 000 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [-3.4800e-04, -4.0000e-05, -2.9000e-05]
+Step 010 | Pos Err:     0.03 km | Vel Err:   0.01 m/s | LLM Accel: [-4.1700e-04, +3.7000e-05, +3.7000e-05]
+Step 020 | Pos Err:     0.13 km | Vel Err:   0.02 m/s | LLM Accel: [-3.6700e-04, +3.7000e-05, +3.7000e-05]
+Step 030 | Pos Err:     0.29 km | Vel Err:   0.03 m/s | LLM Accel: [-7.0600e-04, +3.7000e-05, +3.7000e-05]
+Step 040 | Pos Err:     0.55 km | Vel Err:   0.04 m/s | LLM Accel: [+3.6800e-04, +3.7000e-05, +3.7000e-05]
+
+[!] Step 050 Perturbation Applied:
+    Pos Offset: [-0.17294456  1.07795714  2.84459752] km
+    Vel Offset: [ 0.06110688  0.12872306 -0.1449607 ] m/s
+
+Step 050 | Pos Err:     3.69 km | Vel Err:   0.39 m/s | LLM Accel: [-4.2048e-02, +4.6135e-02, +3.7704e-02]
+Step 060 | Pos Err:    10.00 km | Vel Err:   1.24 m/s | LLM Accel: [-4.0625e-02, -4.7270e-02, +3.7000e-05]
+Step 070 | Pos Err:    22.15 km | Vel Err:   1.66 m/s | LLM Accel: [-4.7280e-03, -4.6135e-02, +3.7000e-05]
+Step 080 | Pos Err:    34.90 km | Vel Err:   1.66 m/s | LLM Accel: [+4.2120e-03, +4.2048e-02, +4.2050e-02]
+Step 090 | Pos Err:    46.87 km | Vel Err:   1.75 m/s | LLM Accel: [-3.6875e-02, -4.2048e-02, +3.6715e-02]
+Step 100 | Pos Err:    60.04 km | Vel Err:   1.89 m/s | LLM Accel: [-3.7750e-02, -4.9772e-02, -4.2073e-02]
+Step 110 | Pos Err:    72.63 km | Vel Err:   2.29 m/s | LLM Accel: [-3.7759e-02, +3.9179e-02, +3.9646e-02]
+Step 120 | Pos Err:    89.89 km | Vel Err:   3.65 m/s | LLM Accel: [-4.0010e-03, -7.0772e-02, +3.9810e-01]
+Step 130 | Pos Err:   114.95 km | Vel Err:   3.97 m/s | LLM Accel: [-3.7230e-03, +4.4140e-03, +4.1000e-05]
+Step 140 | Pos Err:   143.37 km | Vel Err:   3.97 m/s | LLM Accel: [-4.0600e-04, +4.6000e-05, +3.9000e-05]
+
+[*] All 5 CRTBP Mission Simulations Finished Successfully.
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+[*] Loading multi-trajectory data from 'sim_results_multi.npy'...
+[*] Generating aggregated comparison plot for 5 trajectories...
+[*] Saved multi-trajectory summary plot to: multi_trajectory_summary.png
+[*] Saved single trajectory plot to: trajectory_results_run_1.png
+[*] Generating 3D trajectory animation for Trajectory #1...
+[*] Animation saved to: trajectory_animation_run_1.gif
+[*] Saved single trajectory plot to: trajectory_results_run_2.png
+[*] Generating 3D trajectory animation for Trajectory #2...
+[*] Animation saved to: trajectory_animation_run_2.gif
+[*] Saved single trajectory plot to: trajectory_results_run_3.png
+[*] Generating 3D trajectory animation for Trajectory #3...
+[*] Animation saved to: trajectory_animation_run_3.gif
+[*] Saved single trajectory plot to: trajectory_results_run_4.png
+[*] Generating 3D trajectory animation for Trajectory #4...
+[*] Animation saved to: trajectory_animation_run_4.gif
+[*] Saved single trajectory plot to: trajectory_results_run_5.png
+[*] Generating 3D trajectory animation for Trajectory #5...
+[*] Animation saved to: trajectory_animation_run_5.gif
+Visualization pipeline completed successfully!
+Job finished at Mon Aug 24 16:07:12 CDT 2026

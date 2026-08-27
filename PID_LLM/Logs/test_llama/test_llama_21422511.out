@@ -1,0 +1,25 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua074.delta.ncsa.illinois.edu at Mon Aug 24 21:06:24 CDT 2026
+=================================================
+Loading Base Model: meta-llama/Llama-3.1-8B-Instruct
+Loading Fine-Tuned LoRA Adapter: ./results_llama3_1_8b_crtbp_fast_v1/checkpoint-25000
+
+=================================================
+--- Running Mission #1: EARTH_ORBIT ---
+=================================================
+Step 0000/1500 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [+9.8770e-12, +2.0000e-05, +3.6300e-09]
+Step 0100/1500 | Pos Err:     0.40 km | Vel Err:   0.03 m/s | LLM Accel: [+1.3026e-10, +2.2000e-04, +4.7830e-08]
+Step 0200/1500 | Pos Err:     1.52 km | Vel Err:   0.05 m/s | LLM Accel: [+6.6611e-10, +4.2000e-04, +2.4470e-07]
+Step 0300/1500 | Pos Err:     3.09 km | Vel Err:   0.06 m/s | LLM Accel: [+1.0462e-09, +6.2000e-04, +3.8431e-07]
+Step 0400/1500 | Pos Err:     4.79 km | Vel Err:   0.07 m/s | LLM Accel: [+1.8340e-09, +8.2000e-04, +6.7354e-07]
+
+[!] Step 0500 Perturbation Applied:
+    Pos Offset: [-0.80702956 -2.67749314  2.95189686] km
+    Vel Offset: [ 0.05345674  0.03108685 -0.16955052] m/s
+
+Step 0500/1500 | Pos Err:     7.26 km | Vel Err:   0.26 m/s | LLM Accel: [+1.4440e-08, +2.5800e-03, +5.3028e-06]
+Step 0600/1500 | Pos Err:    11.56 km | Vel Err:   0.50 m/s | LLM Accel: [+1.0902e-07, +4.5795e-03, +3.9992e-05]
+Step 0700/1500 | Pos Err:    29.85 km | Vel Err:   0.93 m/s | LLM Accel: [+1.3887e-07, +6.5791e-03, +5.0939e-05]
+Step 0800/1500 | Pos Err:    64.22 km | Vel Err:   1.57 m/s | LLM Accel: [+1.0858e-07, +8.5787e-03, +3.9841e-05]
+Step 0900/1500 | Pos Err:   119.46 km | Vel Err:   2.40 m/s | LLM Accel: [-1.5040e-09, +1.0578e-02, +1.5738e-05]
+Step 1000/1500 | Pos Err:   200.92 km | Vel Err:   3.43 m/s | LLM Accel: [-7.4460e-08, +1.2578e-02, -1.0247e-05]

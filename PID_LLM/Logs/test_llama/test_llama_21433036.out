@@ -1,0 +1,15 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua086.delta.ncsa.illinois.edu at Tue Aug 25 00:55:12 CDT 2026
+=================================================
+Loading Base Model: meta-llama/Llama-3.1-8B-Instruct
+Loading Fine-Tuned LoRA Adapter: ./results_llama3_1_8b_crtbp_fast_v1/checkpoint-25000
+
+=================================================
+--- Running Mission #1: EARTH_ORBIT ---
+=================================================
+Step 0000/1500 | Pos Err:     0.00 km | Vel Err:   0.00 m/s | LLM Accel: [+9.8770e-12, +2.0000e-05, +3.6300e-09]
+Step 0100/1500 | Pos Err:     0.51 km | Vel Err:   0.04 m/s | LLM Accel: [+6.7473e-10, +1.0200e-03, +2.4773e-07]
+Step 0200/1500 | Pos Err:     2.80 km | Vel Err:   0.14 m/s | LLM Accel: [+2.4335e-09, +2.0200e-03, +8.9447e-07]
+Step 0300/1500 | Pos Err:     8.91 km | Vel Err:   0.34 m/s | LLM Accel: [+9.0466e-09, +3.5400e-03, +3.3235e-06]
+Step 0400/1500 | Pos Err:    23.52 km | Vel Err:   0.76 m/s | LLM Accel: [+1.0181e-08, +5.5400e-03, +3.7399e-06]
+Step 0500/1500 | Pos Err:    53.30 km | Vel Err:   1.41 m/s | LLM Accel: [+1.2164e-08, +7.5400e-03, +4.4680e-06]

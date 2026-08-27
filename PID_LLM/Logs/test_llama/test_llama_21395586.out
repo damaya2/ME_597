@@ -1,0 +1,10 @@
+=================================================
+Starting CRTBP Guidance Simulation on gpua029.delta.ncsa.illinois.edu at Mon Aug 24 08:25:30 CDT 2026
+=================================================
+[!] Adapter path not found at: /u/damaya2/UIUC_ME_597_NEW/results_llama3_1_8b_crtbp_fast_v1/final_adapter
+Please train or specify a valid fine-tuned LoRA checkpoint path.
+=================================================
+Simulation finished successfully. Generating plots...
+=================================================
+Visualization pipeline completed successfully!
+Job finished at Mon Aug 24 08:25:48 CDT 2026

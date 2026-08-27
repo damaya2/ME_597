@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Trajectories.py", line 529, in <module>
+    plot_single_trajectory_results(
+  File "/u/damaya2/UIUC_ME_597_NEW/LLM_Trajectories.py", line 314, in plot_single_trajectory_results
+    step_idx, t_dist_hrs, d_vel_ms = dist
+TypeError: cannot unpack non-iterable float object
