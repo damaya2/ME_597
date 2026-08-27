@@ -1,0 +1,12 @@
+/u/damaya2/UIUC_ME_597/Natural_Training.py:11: FutureWarning: Support for Python 3.9 will be dropped in the next release (after its end-of-life on October 31, 2025). Please upgrade to Python 3.10 or newer.
+  from trl import SFTTrainer, SFTConfig
+Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:06<00:20,  6.88s/it]Fetching 4 files:  50%|█████     | 2/4 [00:17<00:17,  8.50s/it]Fetching 4 files: 100%|██████████| 4/4 [00:17<00:00,  4.25s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.61s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:20, 10.16s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  6.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  7.50s/it]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Natural_Training.py", line 122, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Natural_Training.py", line 82, in main
+    sft_config = SFTConfig(
+TypeError: __init__() got an unexpected keyword argument 'max_seq_length'

@@ -1,0 +1,11 @@
+/u/damaya2/UIUC_ME_597/Natural_Training.py:11: FutureWarning: Support for Python 3.9 will be dropped in the next release (after its end-of-life on October 31, 2025). Please upgrade to Python 3.10 or newer.
+  from trl import SFTTrainer, SFTConfig
+Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:26,  8.81s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:17<00:17,  8.60s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:25<00:08,  8.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  5.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.91s/it]
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Natural_Training.py", line 122, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Natural_Training.py", line 101, in main
+    trainer = SFTTrainer(
+TypeError: __init__() got an unexpected keyword argument 'max_seq_length'

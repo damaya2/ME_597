@@ -1,0 +1,65 @@
+/u/damaya2/UIUC_ME_597/Natural_Training.py:10: FutureWarning: Support for Python 3.9 will be dropped in the next release (after its end-of-life on October 31, 2025). Please upgrade to Python 3.10 or newer.
+  from trl import SFTTrainer, SFTConfig
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 6292 examples [00:00, 39750.03 examples/s]Generating train split: 14675 examples [00:00, 46908.74 examples/s]Generating train split: 23048 examples [00:00, 47704.41 examples/s]Generating train split: 31443 examples [00:00, 50024.93 examples/s]Generating train split: 39826 examples [00:00, 50737.41 examples/s]Generating train split: 48213 examples [00:00, 53675.68 examples/s]Generating train split: 56612 examples [00:01, 54530.23 examples/s]Generating train split: 64998 examples [00:01, 54483.32 examples/s]Generating train split: 73399 examples [00:01, 52625.60 examples/s]Generating train split: 81769 examples [00:01, 51254.37 examples/s]Generating train split: 90145 examples [00:01, 52734.06 examples/s]Generating train split: 98518 examples [00:01, 52449.70 examples/s]Generating train split: 106878 examples [00:02, 50782.87 examples/s]Generating train split: 113161 examples [00:02, 30198.82 examples/s]Generating train split: 121542 examples [00:02, 34561.90 examples/s]Generating train split: 129926 examples [00:02, 38731.38 examples/s]Generating train split: 138294 examples [00:03, 41630.43 examples/s]Generating train split: 146671 examples [00:03, 43058.47 examples/s]Generating train split: 155032 examples [00:03, 45053.23 examples/s]Generating train split: 163394 examples [00:03, 46595.25 examples/s]Generating train split: 171759 examples [00:03, 47282.24 examples/s]Generating train split: 177627 examples [00:03, 47491.04 examples/s]Generating train split: 177627 examples [00:04, 43789.65 examples/s]
+Traceback (most recent call last):
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 403, in hf_raise_for_status
+    response.raise_for_status()
+  File "/u/damaya2/.local/lib/python3.9/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1121, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1662, in _raise_on_head_call_error
+    raise head_call_error
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1550, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1467, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 307, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 420, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response) from e
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6a72b56a-37ae32c66962e08260329ba7;acdf0e87-bfd4-4a07-bd52-357736854368)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json.
+Access to model meta-llama/Llama-3.1-8B-Instruct is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597/Natural_Training.py", line 112, in <module>
+    main()
+  File "/u/damaya2/UIUC_ME_597/Natural_Training.py", line 34, in main
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 1109, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/models/auto/configuration_auto.py", line 1332, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/configuration_utils.py", line 662, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/configuration_utils.py", line 721, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/utils/hub.py", line 322, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/transformers/utils/hub.py", line 543, in cached_files
+    raise OSError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct.
+401 Client Error. (Request ID: Root=1-6a72b56a-37ae32c66962e08260329ba7;acdf0e87-bfd4-4a07-bd52-357736854368)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json.
+Access to model meta-llama/Llama-3.1-8B-Instruct is restricted. You must have access to it and be authenticated to access it. Please log in.

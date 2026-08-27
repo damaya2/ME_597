@@ -1,0 +1,6 @@
+Starting Llama-3.1-8B-Instruct SFT on gpua020.delta.ncsa.illinois.edu at Wed Aug  5 01:33:15 CDT 2026
+--- Hugging Face Authenticated Successfully ---
+--- Loading CRTBP Dataset (crtbp_natural_language_20260804_035216.jsonl) ---
+Dataset Size: 177,627 samples
+--- Loading Base Model: meta-llama/Llama-3.1-8B-Instruct ---
+Job finished at Wed Aug  5 01:33:35 CDT 2026

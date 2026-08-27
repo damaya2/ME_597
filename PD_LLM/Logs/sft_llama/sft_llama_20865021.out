@@ -1,0 +1,5 @@
+Starting Llama-3.1-8B-Instruct SFT on gpua076.delta.ncsa.illinois.edu at Tue Aug  4 23:00:22 CDT 2026
+--- Loading CRTBP Dataset (crtbp_natural_language_20260804_035216.jsonl) ---
+Dataset Size: 177,627 samples
+--- Loading Base Model: meta-llama/Llama-3.1-8B-Instruct ---
+Job finished at Tue Aug  4 23:00:43 CDT 20261~#!/bin/bash
