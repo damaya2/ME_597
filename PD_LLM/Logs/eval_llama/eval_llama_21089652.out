@@ -1,0 +1,11 @@
+Starting evaluation on gpua073.delta.ncsa.illinois.edu at Wed Aug 12 18:55:55 CDT 2026
+Loading tokenizer and model...
+Reading test data from crtbp_natural_language_20260804_035216.jsonl...
+Running evaluation on 100 samples...
+
+Evaluating:   0%|          | 0/100 [00:00<?, ?it/s]                                                   
+--- Sample 1 [SUCCESS] ---
+Evaluating:   0%|          | 0/100 [00:12<?, ?it/s]                                                   Ground Truth Canonical u: [1.98789380e-04 4.90829254e-06 3.06773716e-05]
+Evaluating:   0%|          | 0/100 [00:12<?, ?it/s]                                                   Predicted Canonical u:    [2.01e-04 8.00e-06 2.90e-05]
+Evaluating:   0%|          | 0/100 [00:12<?, ?it/s]                                                   Absolute Error (m/s^2):   [6.03662753e-09 8.44264760e-09 4.58046493e-09]
+Evaluating:   0%|          | 0/100 [00:12<?, ?it/s]Evaluating:   0%|          | 0/100 [00:12<?, ?it/s, Parsed=1/1, Success Rate=100.0%]Evaluating:   1%|1         | 1/100 [00:12<21:24, 12.97s/it, Parsed=1/1, Success Rate=100.0%]

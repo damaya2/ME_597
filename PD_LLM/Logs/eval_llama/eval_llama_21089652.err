@@ -1,0 +1,6 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.29s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:17<00:17,  8.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:25<00:08,  8.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  5.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.85s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[2026-08-12T18:57:01.801] error: *** JOB 21089652 ON gpua073 CANCELLED AT 2026-08-12T18:57:01 DUE to SIGNAL Terminated ***
