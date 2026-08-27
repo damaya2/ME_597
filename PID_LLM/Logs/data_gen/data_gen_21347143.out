@@ -1,0 +1,85 @@
+=================================================
+Starting Dataset Generation on gpua016.delta.ncsa.illinois.edu at Sat Aug 22 03:10:52 CDT 2026
+=================================================
+Starting dataset generation with mid-trajectory perturbations. Output: 'crtbp_llm_dataset_20260822_031053.jsonl'
+[Solver Step 001000] t= 6.679 | Pos Err:    0.29 km | Vel Err:    0.02 m/s
+[Solver Step 002000] t= 6.777 | Pos Err:    0.04 km | Vel Err:    0.00 m/s
+[Solver Step 003000] t= 6.848 | Pos Err:    0.06 km | Vel Err:    0.17 m/s
+[Solver Step 001000] t= 5.872 | Pos Err:    0.47 km | Vel Err:    0.03 m/s
+[Solver Step 002000] t= 5.982 | Pos Err:    0.04 km | Vel Err:    0.00 m/s
+[Solver Step 003000] t= 6.083 | Pos Err:    0.00 km | Vel Err:    0.02 m/s
+[Solver Step 004000] t= 6.161 | Pos Err:    0.00 km | Vel Err:    0.01 m/s
+[Solver Step 005000] t= 6.263 | Pos Err:    0.00 km | Vel Err:    0.00 m/s
+[Solver Step 006000] t= 6.365 | Pos Err:    0.01 km | Vel Err:    0.05 m/s
+[Solver Step 007000] t= 6.456 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 008000] t= 6.543 | Pos Err:    0.00 km | Vel Err:    0.00 m/s
+[Solver Step 009000] t= 6.665 | Pos Err:    0.00 km | Vel Err:    0.03 m/s
+[Solver Step 010000] t= 6.761 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 011000] t= 6.838 | Pos Err:    0.00 km | Vel Err:    0.00 m/s
+[Solver Step 001000] t= 6.420 | Pos Err:    0.03 km | Vel Err:    0.00 m/s
+[Solver Step 002000] t= 6.967 | Pos Err:    0.06 km | Vel Err:    0.00 m/s
+[Solver Step 001000] t= 5.240 | Pos Err:    0.32 km | Vel Err:    0.02 m/s
+[Solver Step 002000] t= 5.388 | Pos Err:    0.02 km | Vel Err:    0.00 m/s
+[Solver Step 003000] t= 5.531 | Pos Err:    0.01 km | Vel Err:    0.02 m/s
+[Solver Step 004000] t= 5.647 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 005000] t= 5.794 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 006000] t= 5.962 | Pos Err:    0.00 km | Vel Err:    0.02 m/s
+[Solver Step 007000] t= 6.130 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 008000] t= 6.276 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 009000] t= 6.391 | Pos Err:    0.01 km | Vel Err:    0.01 m/s
+[Solver Step 010000] t= 6.542 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 011000] t= 6.705 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 012000] t= 6.857 | Pos Err:    0.00 km | Vel Err:    0.01 m/s
+[Solver Step 013000] t= 6.995 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 014000] t= 7.098 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 015000] t= 7.237 | Pos Err:    0.01 km | Vel Err:    0.05 m/s
+[Solver Step 016000] t= 7.386 | Pos Err:    0.00 km | Vel Err:    0.00 m/s
+[Solver Step 017000] t= 7.511 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 018000] t= 7.646 | Pos Err:    0.01 km | Vel Err:    0.02 m/s
+[Solver Step 019000] t= 7.816 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 020000] t= 7.990 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 021000] t= 8.144 | Pos Err:    0.01 km | Vel Err:    0.01 m/s
+[Solver Step 022000] t= 8.259 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 023000] t= 8.400 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 024000] t= 8.557 | Pos Err:    0.00 km | Vel Err:    0.02 m/s
+[Solver Step 025000] t= 8.701 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 026000] t= 8.845 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 027000] t= 8.951 | Pos Err:    0.00 km | Vel Err:    0.02 m/s
+[Solver Step 028000] t= 9.089 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 029000] t= 9.239 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 030000] t= 9.376 | Pos Err:    0.01 km | Vel Err:    0.01 m/s
+[Solver Step 031000] t= 9.498 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 032000] t= 9.665 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 033000] t= 9.839 | Pos Err:    0.00 km | Vel Err:    0.01 m/s
+[Solver Step 034000] t= 9.999 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 035000] t=10.120 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 036000] t=10.252 | Pos Err:    0.00 km | Vel Err:    0.01 m/s
+[Solver Step 037000] t=10.401 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 038000] t=10.543 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 039000] t=10.692 | Pos Err:    0.00 km | Vel Err:    0.03 m/s
+[Solver Step 040000] t=10.802 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 041000] t=10.938 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 042000] t=11.090 | Pos Err:    0.01 km | Vel Err:    0.02 m/s
+[Solver Step 043000] t=11.233 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 044000] t=11.357 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 045000] t=11.497 | Pos Err:    0.01 km | Vel Err:    0.01 m/s
+[Solver Step 046000] t=11.665 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 047000] t=11.831 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 048000] t=11.976 | Pos Err:    0.01 km | Vel Err:    0.01 m/s
+[Solver Step 049000] t=12.089 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 050000] t=12.228 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+[Solver Step 051000] t=12.368 | Pos Err:    0.00 km | Vel Err:    0.02 m/s
+[Solver Step 052000] t=12.517 | Pos Err:    0.01 km | Vel Err:    0.00 m/s
+=================================================
+Dataset generation finished successfully!
+Generated output dataset: crtbp_llm_dataset_20260822_031053.jsonl
+Running trajectory verification...
+=================================================
+Loading generated dataset: crtbp_llm_dataset_20260822_031053.jsonl
+Total complete trajectories found in dataset: 4
+Verification plots successfully saved to: dataset_plots/verified_trajectories.png
+=================================================
+Verification complete!
+Visualizations stored in: dataset_plots/
+=================================================
+Job completed at Sat Aug 22 03:11:10 CDT 2026

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Dataset_Generator.py", line 244, in <module>
+    process_and_save_dataset(num_trajectories=600, step_stride=2)
+  File "/u/damaya2/UIUC_ME_597_NEW/Dataset_Generator.py", line 166, in process_and_save_dataset
+    mission_type, sol_ref, ref_fn = generate_unified_reference_trajectory()
+  File "/u/damaya2/UIUC_ME_597_NEW/Dataset_Generator.py", line 63, in generate_unified_reference_trajectory
+    return generate_reference_trajectory(mission_type=mission_type)
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 107, in generate_reference_trajectory
+    transfer_res = solve_point_to_point_transfer(x_initial, x_target, tof=2.5)
+  File "/u/damaya2/UIUC_ME_597_NEW/Trajectories.py", line 60, in solve_point_to_point_transfer
+    sol = solve_ivp(
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/ivp.py", line 621, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/rk.py", line 505, in __init__
+    super().__init__(fun, t0, y0, t_bound, max_step, rtol, atol,
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/base.py", line 154, in fun
+    return self.fun_single(t, y)
+  File "/u/damaya2/.local/lib/python3.9/site-packages/scipy/integrate/_ivp/base.py", line 23, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "/u/damaya2/UIUC_ME_597_NEW/Trajectories.py", line 61, in <lambda>
+    lambda t, y: crtbp_var_eom(t, y, mu),
+  File "/u/damaya2/UIUC_ME_597_NEW/CRTBP.py", line 114, in crtbp_var_eom
+    Phi = Y[6:].reshape((6, 6))
+ValueError: cannot reshape array of size 42 into shape (6,6)

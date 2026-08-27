@@ -1,0 +1,17 @@
+=================================================
+Starting Dataset Generation on gpua054.delta.ncsa.illinois.edu at Fri Aug 21 06:41:39 CDT 2026
+=================================================
+Starting dataset generation. Output: 'crtbp_llm_dataset_20260821_064139.jsonl'
+=================================================
+Dataset generation finished successfully!
+Generated output dataset: crtbp_llm_dataset_20260821_064139.jsonl
+Running trajectory verification...
+=================================================
+Loading generated dataset: crtbp_llm_dataset_20260821_064139.jsonl
+Total complete trajectories found in dataset: 0
+Verification plots successfully saved to: dataset_plots/verified_trajectories.png
+=================================================
+Verification complete!
+Visualizations stored in: dataset_plots/
+=================================================
+Job completed at Fri Aug 21 06:41:40 CDT 2026

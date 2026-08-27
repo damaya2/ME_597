@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/u/damaya2/UIUC_ME_597_NEW/Dataset_Generator.py", line 244, in <module>
+    process_and_save_dataset(num_trajectories=600, step_stride=2)
+  File "/u/damaya2/UIUC_ME_597_NEW/Dataset_Generator.py", line 166, in process_and_save_dataset
+    mission_type, sol_ref, ref_fn = generate_unified_reference_trajectory()
+  File "/u/damaya2/UIUC_ME_597_NEW/Dataset_Generator.py", line 63, in generate_unified_reference_trajectory
+    return generate_reference_trajectory(mission_type=mission_type)
+  File "/u/damaya2/UIUC_ME_597_NEW/Test.py", line 107, in generate_reference_trajectory
+    transfer_res = solve_point_to_point_transfer(x_initial, x_target, tof_guess=2.5)
+TypeError: solve_point_to_point_transfer() got an unexpected keyword argument 'tof_guess'
