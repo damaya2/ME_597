@@ -23,7 +23,7 @@ The primary objective is to evaluate whether an LLM can learn the map between sp
 │   ├── LLM_Guidance.py        # LLM token formatting & inference routines
 │   ├── Fine_Tuning.slurm      # NCSA Delta HPC training submission script
 │   └── *.sh / *.slurm         # Automated workflow execution & simulation scripts
-├── PD_LLM/                    # PD guidance baseline experiment iteration
+├── PD_LLM/                    # PD guidance baseline iteration
 ├── PID_LLM/                   # Current PID guidance adaptive controller iteration
 ├── PID_OLD_LLM/               # Deprecated PID implementation (legacy reference)
 ├── Logs/                      # Training JSONL datasets, checkpoints, & Tensorboard events
@@ -31,7 +31,7 @@ The primary objective is to evaluate whether an LLM can learn the map between sp
 ├── ME_597_Final_Paper.pdf     # Final research project paper
 └── ME 597 Final Presentation.pptx
 
-> **Note on Model Variants:** `PD_LLM` and `PID_LLM` are independent, stand-alone experimental implementations evaluating different baseline controller guidance strategies. `PID_OLD_LLM` is retained strictly as an archival version of `PID_LLM`.
+> **Note on Model Variants:** `PD_LLM` and `PID_LLM` are independent, stand-alone implementations evaluating different baseline controller guidance strategies. `PID_OLD_LLM` is retained strictly as an archival version of `PID_LLM`.
 
 ---
 
