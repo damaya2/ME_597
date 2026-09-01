@@ -7,7 +7,7 @@
 
 ## Overview
 
-This repository investigates the use of fine-tuned Large Language Models (LLMs) as closed-loop spacecraft guidance controllers within the **Earth–Moon Circular Restricted Three-Body Problem (CRTBP)**. The framework integrates non-linear orbital dynamics, classical proportional-derivative (PD) and proportional-integral-derivative (PID) feedback control baselines, automated cislunar dataset generation, QLoRA instruction tuning on Llama-3.1-8B-Instruct, and real-time closed-loop LLM trajectory execution.
+This repository investigates the use of fine-tuned Large Language Models (LLMs) as closed-loop spacecraft guidance controllers within the **Earth–Moon Circular Restricted Three-Body Problem (CRTBP)**. The framework integrates non-linear orbital dynamics, classical proportional-derivative (PD) and proportional-integral-derivative (PID) feedback control baselines, automated cislunar dataset generation, LoRA instruction tuning on Llama-3.1-8B-Instruct, and real-time closed-loop LLM trajectory execution.
 
 The primary objective is to evaluate whether an LLM can learn the map between spatial tracking errors and corrective three-axis control actions while maintaining trajectory tracking stability and disturbance recovery across cislunar mission profiles.
 
@@ -56,7 +56,7 @@ The end-to-end pipeline consists of six primary steps:
 
 [ CRTBP Simulation Setup ] ──► [ Reference Trajectories ] ──► [ Dataset Generation ]
                                                                       │
-[ Plotting & Metrics ] ◄── [ Closed-Loop LLM Guidance ] ◄── [ QLoRA Fine-Tuning ]
+[ Plotting & Metrics ] ◄── [ Closed-Loop LLM Guidance ] ◄── [ LoRA Fine-Tuning ]
 
 ### Step 1 & 2: CRTBP Simulation & Reference Trajectories
 Nonlinear Earth–Moon CRTBP state vectors and target reference orbits are defined using Code/CRTBP.py and Code/Controller.py.
@@ -69,7 +69,7 @@ bash Code/generate_dataset.sh
 Outputs are saved to the Logs/ directory.
 
 ### Step 4: LLM Fine-Tuning
-Fine-tune Llama-3.1-8B-Instruct using QLoRA. Pass your Hugging Face authentication token when launching:
+Fine-tune Llama-3.1-8B-Instruct using LoRA. Pass your Hugging Face authentication token when launching:
 
 export HF_TOKEN="your_huggingface_token_here"
 sbatch Code/Fine_Tuning.slurm
